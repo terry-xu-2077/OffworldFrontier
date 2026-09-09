@@ -1,0 +1,53 @@
+name: One-off migrate content from YiXingBianJing
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/migrate-from-yixing.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Clone source repository
+        run: |
+          git clone --depth 1 https://github.com/terry-xu-2077/YiXingBianJing.git /tmp/YiXingBianJing
+
+      - name: Copy selected content
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mkdir -p '设定' '写作'
+          cp -a /tmp/YiXingBianJing/'设定'/.'设定'/
+          cp -a /tmp/YiXingBianJing/'写作'/.'写作'/
+
+          rm -f '设定/异星边境_完整设定集.md'
+          rm -f '写作/README.md'
+
+          echo 'Migrated files:'
+          find '设定' '写作' -type f -print | sort
+
+      - name: Commit migrated content
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- '设定' '写作'
+          if git diff --cached --quiet; then
+            echo 'No content changes to commit.'
+          else
+            git commit -m 'Migrate setting and writing content from YiXingBianJing'
+            git push origin HEAD:main
+          fi

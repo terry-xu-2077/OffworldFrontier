@@ -26,6 +26,11 @@ INDEX = ROOT / "设定" / "速查索引.md"
 HEADING = re.compile(r"^(#{1,6})\s+(.+?)\s*$")
 LINK = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 MAX_CHARS = 9000
+MAX_ROUTE_RESULTS = 8
+MAX_HEADINGS = 60
+MAX_SEARCH_RESULTS = 12
+MAX_PER_FILE = 3
+MAX_LINE_CHARS = 240
 
 
 def relative(path: Path) -> str:
@@ -77,7 +82,7 @@ def route_command(args, routes: list[dict]) -> int:
     if not matches:
         print("No indexed topic matched. Use a shorter term or the search command.")
         return 1
-    for (score, found), item in matches[:args.limit]:
+    for (score, found), item in matches[:max(1, min(args.limit, MAX_ROUTE_RESULTS))]:
         print(f"[{item['topic']}] {relative(item['path'])}")
         print(f"  keyword matches: {', '.join(found) or 'topic/title'}")
     print("Next: headings PATH, then read PATH SECTION; do not load every candidate.")
@@ -98,10 +103,10 @@ def headings_command(args) -> int:
     path = safe_path(args.path)
     _, headings = get_headings(path)
     print("FILE", relative(path))
-    for no, level, title in headings[:args.limit]:
+    for no, level, title in headings[:max(1, min(args.limit, MAX_HEADINGS))]:
         print(f"L{no + 1:>4} {'  ' * (level - 1)}{title}")
-    if len(headings) > args.limit:
-        print(f"... {len(headings) - args.limit} more headings")
+    if len(headings) > max(1, min(args.limit, MAX_HEADINGS)):
+        print(f"... {len(headings) - max(1, min(args.limit, MAX_HEADINGS))} more headings")
     return 0
 
 
@@ -161,12 +166,12 @@ def search_command(args, routes) -> int:
     ranked.sort(key=lambda x: (-x[0], -min(x[1], 15), relative(x[2])))
     count = 0
     for _, _, path, hits in ranked:
-        for line_no, line in hits[:max(1, args.per_file)]:
-            if count >= args.limit:
+        for line_no, line in hits[:max(1, min(args.per_file, MAX_PER_FILE))]:
+            if count >= max(1, min(args.limit, MAX_SEARCH_RESULTS)):
                 break
-            print(f"{relative(path)}:L{line_no} {line[:args.line_chars]}")
+            print(f"{relative(path)}:L{line_no} {line[:max(50, min(args.line_chars, MAX_LINE_CHARS))]}")
             count += 1
-        if count >= args.limit:
+        if count >= max(1, min(args.limit, MAX_SEARCH_RESULTS)):
             break
     if not count:
         print("No matching excerpt in this scope; try a synonym or --scope proposals.")

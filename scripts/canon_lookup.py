@@ -143,8 +143,7 @@ def search_sources(scope: str):
     drafts = sorted((ROOT / "创作" / "剧本").rglob("*.md"))
     drafts += [ROOT / "创作" / "人物关系与冲突.md",
                ROOT / "创作" / "人物生活事件实验库.md",
-               ROOT / "创作" / "灵感池.md",
-               ROOT / "创作" / "灵感记录_早期原文.md"]
+               ROOT / "创作" / "灵感池.md"]
     return canon if scope == "canon" else drafts if scope == "proposals" else canon + drafts
 
 

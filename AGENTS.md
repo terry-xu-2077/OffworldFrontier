@@ -4,4 +4,4 @@ Before creative work, read [QWEN.md](QWEN.md), [创作/创作方向.md](创作/�
 
 Do not restore obsolete movie opening/episode-order requirements; do not replace battery-powered rail minecarts with people pushing heavy carts; do not introduce a second ore lift or mechanical split-flap status board. Keep character dialogue conversational and translate abstract institutional/technical phrases into visible actions.
 
-After edits run: `python scripts/check_canon.py`. Check warnings manually, especially missing art-image references; do not fabricate unseen reference assets.
+After edits run: `python scripts/canon_lookup.py check` and `python scripts/check_canon.py`. Inspect warnings manually, especially missing art-image references. The index is a router, not a second source of canon; do not fabricate unseen image assets.

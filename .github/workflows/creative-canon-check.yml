@@ -16,5 +16,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Check topic index routes
+        run: python3 scripts/canon_lookup.py check
       - name: Scan canon and episode scripts
         run: python3 scripts/check_canon.py

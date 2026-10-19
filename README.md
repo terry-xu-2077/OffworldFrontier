@@ -1,8 +1,12 @@
 # 异星边境 · Offworld Frontier
 
+**唯一维护仓库：** https://github.com/terry-xu-2077/OffworldFrontier （默认 `main`）。旧仓库已停止维护，不再作为设定或创作依据。
+
 原创写实科幻项目：**人物是情感中心，科幻是世界与行动的舞台，现实困境是塑造角色的工具。**
 
 ## 创作入口
+
+所有创作模型、代码 Agent 或编辑工具统一遵循 [AGENTS.md：通用创作与维护指南](AGENTS.md)，没有某个模型独立的一套创作规则。
 
 **Agent 从 [设定速查索引](设定/速查索引.md) 按需查阅，不要通读整个设定目录。** 可运行 `python scripts/canon_lookup.py route "关键词"` 定位专题，`headings` 看章节，再用 `read` 只取相关段落；索引不会复制正典。
 

@@ -1,11 +1,49 @@
-# OffworldFrontier — Agent instructions
+# 《异星边境》通用 Agent 创作与维护指南
 
-Before creative work, read [QWEN.md](QWEN.md), [创作/创作方向.md](创作/创作方向.md) and the small [设定/速查索引.md](设定/速查索引.md). NEVER preload all files in `设定/` or the first-season scripts. Use `python scripts/canon_lookup.py route "keywords"`, then `headings PATH` and `read PATH SECTION` for narrowly relevant slices. Default `search` excludes proposal scripts; opt in with `--scope proposals` only when editing that specific work. Character/world/art topics are read on demand. The first-season scripts and event experiments are proposals, not global canon.
+> 本文件适用于 **所有 AI Agent、编辑器与自动化工具**，不与任何特定模型绑定。当前唯一维护仓库为 [OffworldFrontier](https://github.com/terry-xu-2077/OffworldFrontier)，默认使用仓库的 `main` 分支。旧仓库不再维护，也不作为后续创作与设定更新的事实来源。
 
-Native life consciousness rule: low-order alien ecology acts through unconscious instinct; higher-order native organisms can only APPEAR intentional, with no successful capture-and-laboratory studies to establish consciousness. Never canonize telepathy, self-awareness or human speech based on suggestive behavior. This does not apply to established intelligent extraterrestrial civilizations.
+## 启动与上下文预算
 
-Biological batteries are extremely rare sealed living prototypes, distinct from the standard industrial energy cartridge and exotic ore core. Most residents have only heard rumors; no ordinary vehicle runs on one by default. Do not infer working power merely from signs of life.
+默认只读取三份轻量入口：本文件、[创作方向](创作/创作方向.md)、[设定速查索引](设定/速查索引.md)。**不要一次性加载人物、世界、美术全部设定，也不要默认加载第一季十集剧本。**
 
-Do not restore obsolete movie opening/episode-order requirements; do not replace battery-powered rail minecarts with people pushing heavy carts; do not introduce a second ore lift or mechanical split-flap status board. Keep character dialogue conversational and translate abstract institutional/technical phrases into visible actions. Audience-facing episode titles and dialogue must use concrete everyday names (电池, 能量电池); reserve 能量匣 for technical records. Never shorten a countable battery into an abstract electrical quantity.
+按需检索（在仓库根目录）：
 
-After edits run: `python scripts/canon_lookup.py check` and `python scripts/check_canon.py`. Inspect warnings manually, especially missing art-image references. The index is a router, not a second source of canon; do not fabricate unseen image assets.
+1. `python scripts/canon_lookup.py route "当前任务关键词"`：最多返回少量相关专题路径。
+2. `python scripts/canon_lookup.py headings "专题文件路径"`：先定位章节。
+3. `python scripts/canon_lookup.py read "专题文件路径" "章节名"`：只读取所需小节；必要时缩小范围。
+4. `python scripts/canon_lookup.py search "关键词"`：只返回短摘录，默认只搜索权威设定；**仅在修改或续写提案时**使用 `--scope proposals`。
+
+通常按一个任务精读 **1–3 份相关专题**；出现事实冲突再扩大查证。索引只提供路径，不另外存储一份会漂移的设定副本。无法运行本地脚本时，照索引手动只读取关联章节。
+
+## 信息层级与创作边界
+
+1. 用户在当前任务中明确确认的决定优先。
+2. `创作/创作方向.md` 定义通用叙事原则；`设定/人物设定/`、`设定/世界设定/` 与美术专题承载经确认的事实及能力边界。
+3. `创作/人物关系与冲突.md`、生活事件实验库、第一季剧本与历史版本是**创作提案和素材**，不得自动升级为跨作品正典。
+
+旧电影版的场次、人物入场次序、镜头顺序、结尾和剧本规则均已退出现行创作约束。第一季“单集三分钟以内、开头十秒建立冲突”仅针对该季具体任务，**不是全部未来作品的通用格式**。未经确认的新发明、新能力与剧情结果标为“提案”，不能偷写进世界设定。
+
+## 所有新创作通用要求
+
+- **人物优先。** 先明确欲望、关系、动作和真实代价，再让科幻、生态或社会困境发挥作用；不把每集写成观点辩论。
+- **对白自然。** 日常允许正常语气词、解释、打断、玩笑和犹豫；紧急指挥才短促。不同角色声音有差异，避免全员机关枪短句、设定汇报和强行金句。
+- **观众能直接理解。** 标题、台词与动作优先具体名词：“电池／能量电池”“矿石”“滤芯”，不要省略成让观众猜的“电”“重量”。技术术语第一次出现应能对应外观、操作和可见结果；设备记录仍可使用专业名称。
+- **物理与生产力可信。** 人、道具、能源、轨道、矿物、设施及其损耗要连续可追踪；不靠抽象“系统唤醒”代替可拍动作。普通矿车由能量匣供电的电机驱动，与矿工共用一台主井电梯，不回退成长期手推重载矿车或额外货梯。
+- **技术品类分清。** 普通工业能量匣、罕见活体生物电池与曜晶核心不相互混同；微生物活化不等于电池已充电或可直接给载具供电。工业状态显示用琥珀色点阵 LED，详细参数用绿色磷光屏，不恢复机械翻字牌。
+- **未知性与证据边界。** 荒星低阶原生生命依靠本能；高阶生命虽可表现出复杂行为，但尚无活体实验室研究证实其意识，不直接写成有自我意识、读心或能对话。已建交的外星智慧文明不受此未知设定限制。
+- **视觉规范与真实资产。** 风格遵循现有写实电影感美术专题。引用参考图前检查文件确实存在，不得仅凭失效图片链接声称已检查或固定外形。
+
+涉及生物、电池、矿业、身份等细节时，**回到相应专题读取事实**；上面的简表是避免明显回退的检查要点，不是另一份完整世界观。
+
+## 修改、交付与核对
+
+修改剧本前后检查道具流向、人物能力、时长、对白口语、剧情因果和跨集连续性；修改设定须同步核对有关联的专题与索引关键词。优先直接修改权威来源，不新增重复汇编。
+
+在仓库根目录执行：
+
+```bash
+python scripts/canon_lookup.py check
+python scripts/check_canon.py
+```
+
+对检查告警做语义确认；不要为了通过检查而删掉有效设定。写完明确报告实际改动的文件和提交结果。**对未执行的检查或未确认的运行结果，不宣称已通过。**

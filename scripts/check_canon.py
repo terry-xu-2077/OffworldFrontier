@@ -13,7 +13,7 @@ from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
 CANON_DIRS = (ROOT / "创作", ROOT / "设定")
-SCREENPLAY_DIR = ROOT / "创作" / "剧本" / "第一季"
+SCREENPLAY_DIR = ROOT / "创作" / "剧本"
 ALLOW = "<!-- audit-allow:"
 IMAGE_LINK = re.compile(r"\[[^\]]+\]\(([^)]+?\.(?:png|jpe?g|webp))\)", re.I)
 
@@ -56,8 +56,8 @@ def main() -> int:
     for doc in documents:
         rel = doc.relative_to(ROOT).as_posix()
         text = doc.read_text(encoding="utf-8-sig")
-        is_episode = (doc.parent == SCREENPLAY_DIR
-                      and re.match(r"^(?:0[1-9]|10)_", doc.name) is not None)
+        is_episode = (SCREENPLAY_DIR in doc.parents and
+                      re.match(r"^(?:0[1-9]|[1-9][0-9])_", doc.name) is not None)
         for no, line in enumerate(text.splitlines(), 1):
             if ALLOW in line:
                 continue

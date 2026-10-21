@@ -88,7 +88,7 @@
 | [3-UNI.png](https://drive.google.com/file/d/1ScPGZrJriOeDZ9RMML-Hdyy3Ts4sHYSc/view?usp=drivesdk) | 寰宇重工 UNI / UI |
 | [4-VTX.png](https://drive.google.com/file/d/1MjHfjIozIszH8bmj1G-kPKUmP5LwMw3n/view?usp=drivesdk) | 维塔克斯 VTX |
 | [5-SBD.png](https://drive.google.com/file/d/1aTVzGyIp6y_NthOw5TOh6xPrcTZsyubp/view?usp=drivesdk) | 星垒防卫 SBD |
-| [6-TRG.png](https://drive.google.com/file/d/1lsBK5SnWrFr7ZVFU0sl4BnEwEnO8D33c/view?usp=drivesdk) | TRG 标识；公司名称与正典归属待按公司设定核对 |
+| [6-TRG.png](https://drive.google.com/file/d/1lsBK5SnWrFr7ZVFU0sl4BnEwEnO8D33c/view?usp=drivesdk) | 环映传媒集团 TRG 标识：深炭灰复合字形、橙／绿／蓝三条色带与浅灰蓝 R 形字；不补造图中未明确的字母结构 |
 
 ## 读取与使用说明
 

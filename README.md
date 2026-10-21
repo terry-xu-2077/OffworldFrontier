@@ -6,6 +6,10 @@
 
 ## 创作入口
 
+**写剧本、分镜与视频提示词**：从 [编剧 × 导演分镜项目 Skill](skills/offworld-storyboard-director/SKILL.md) 开始，按需查阅 [技能模块索引](skills/README.md)，再核对当前正典专题。用户只需在本项目对话说“帮我写脚本”，不必每次重贴技能来源。仓库 Skill 供对话时读取，不等于 ChatGPT 全局安装。
+
+
+
 所有创作模型、代码 Agent 或编辑工具统一遵循 [AGENTS.md：通用创作与维护指南](AGENTS.md)，没有某个模型独立的一套创作规则。
 
 **Agent 从 [设定速查索引](设定/速查索引.md) 按需查阅，不要通读整个设定目录。** 可运行 `python scripts/canon_lookup.py route "关键词"` 定位专题，`headings` 看章节，再用 `read` 只取相关段落；索引不会复制正典。

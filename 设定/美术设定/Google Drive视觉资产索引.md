@@ -21,7 +21,7 @@
 
 | 资产 | 参考用途 |
 |---|---|
-| [00_特瑞_Terry.jpg](https://drive.google.com/file/d/1VwYvZB4WYyFK1kLYkUXB8LC4pqzsyPJt/view?usp=drivesdk) | 特瑞的脸部、全身服装及多角度造型参考 |
+| [00_特瑞_Terry.jpg](https://drive.google.com/file/d/1VwYvZB4WYyFK1kLYkUXB8LC4pqzsyPJt/view?usp=drivesdk) | 特瑞的脸部、全身服装及多角度造型参考。**待核验**：图中外披偏沙棕/卡其色，与美术清单中的“褪色酒红外套”描述不完全一致 |
 | [01_莺_Nina.jpg](https://drive.google.com/file/d/1Kk4cxxlLjioNOQqMv-RtfqoOB39cpgmL/view?usp=drivesdk) | 莺的角色造型参考 |
 | [02_徐世嵘_Ronan_Xu.jpg](https://drive.google.com/file/d/124Gc7fUAObTHoaumwdXL_8BJU44pPLIg/view?usp=drivesdk) | 徐世嵘的角色造型参考 |
 | [03_维克托_Viktor.jpg](https://drive.google.com/file/d/1uuzj4cl2oEhavT5P873bphO5_Xh9cx0A/view?usp=drivesdk) | 维克托的角色造型参考 |

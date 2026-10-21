@@ -30,7 +30,7 @@
 | [06_凯恩_Kane.jpeg](https://drive.google.com/file/d/1fPZftqteU_xOqqnb7Nupa3WURx6P0og7/view?usp=drivesdk) | 凯恩的角色造型参考 |
 | [07_Mi-17_小七（完好状态）.jpg](https://drive.google.com/file/d/1hX7MJxzGybWIGdHWLlv2yF1oKwKWrkNi/view?usp=drivesdk) | 小七过去完好状态：历史上曾具备移动能力；不代表当前状态仍可移动 |
 | [07_Mi-17_小七（机甲状态）.jpeg](https://drive.google.com/file/d/15BtPSs4RD_mX8X7bQQYGUhvSadkcsfp2/view?usp=drivesdk) | 小七与独立全尺寸工业机甲底盘的组合概念图；仅作视觉参考，是否纳入剧情待定 |
-| 07_Mi-17_小七_（残机状态）.jpeg（Drive 直链待同步） | 当前残机状态：无法自主移动；具体损坏原因与故障部件暂不推断 |
+| 07_Mi-17_小七_（残机状态）.jpeg（本轮对话提供，Drive 直链待同步） | 当前只剩头部组件；不含完整机身、单轮驱动或侧摆臂，无法自主移动 |
 
 ## 人物｜角色头像（7 张）
 
@@ -63,11 +63,12 @@
 | [1元_5元_10元.jpeg](https://drive.google.com/file/d/1ki-fP3QglPxYy0CJiBRULobcCUAA8rqi/view?usp=drivesdk) | 实体硬币面额、尺寸与材质参考 |
 | [硬币散在桌面.jpeg](https://drive.google.com/file/d/11xozlL29SKlD0lICthehBtNGRWC1bFyJ/view?usp=drivesdk) | 硬币在桌面上的散布、尺度与场景摆放参考 |
 
-## 生物（3 张）
+## 生物（4 张）
 
 | 资产 | 参考用途 |
 |---|---|
 | [地下虫群-4种变体.jpg](https://drive.google.com/file/d/1GyIONfQEFUtbQluE0KOzDc9V2skryShW/view?usp=drivesdk) | 地下虫群四种形态：护卫、采集、挖掘、侦察的外形区分 |
+| [地下深处-虫群母巢.jpg](https://drive.google.com/file/d/1gOjlEdJeQi1S8uzv2bD71ksi8w8V9oBw/view?usp=drivesdk) | 深层母巢空间、悬垂的胶质共生体、多囊状结构与虫群活动关系 |
 | [绿洲-无足爬行生物.jpg](https://drive.google.com/file/d/1tavuHE-AuyCPsPsqPKi55NyF3xgR2eZ7/view?usp=drivesdk) | 绿洲区域无足爬行生物参考 |
 | [高空-浮空生物.jpg](https://drive.google.com/file/d/1CpNHAFemrA5UGHCuE5Rxkjn_KjSQzlZt/view?usp=drivesdk) | 高空浮空生物的轮廓、漂浮形态与尺度参考 |
 
@@ -94,7 +95,7 @@
 
 ## 读取与使用说明
 
-- 当前索引登记 40 张图像资产，涵盖角色设定卡与头像、载具、道具、生态生物、环境和公司 LOGO。新增的残机状态图已按用户提供的文件名登记；由于当前 Drive 目录读取尚未返回该文件的可访问链接，待链接可用后补链并完成视觉核对。
+- 当前索引登记 41 项视觉资产，包括本轮新增的虫群母巢图。小七残机状态图由用户在对话中提供，已按文件名登记，但尚未取得其 Drive 直链；其余已链接资产可通过本索引打开。
 - 图片中的临时型号、自动生成文字、公司名或英文概念标签仅作为图像内容；只有经文字设定确认后才作为正典术语。
 - 以后为某集写分镜时，先根据镜头涉及的人物、场景、载具或道具，从本索引打开对应图片，再结合《美术资产库清单》和具体人物/世界设定。
 - 角色头像用于面部连续性；角色设定卡用于全身服装、比例和多角度造型；环境图用于空间布局、材质与光色；道具/载具/生物图用于结构与轮廓。不要把不同类别的图互相当成唯一依据。

@@ -15,7 +15,7 @@
 - [环境](https://drive.google.com/drive/folders/1OEIUanE6A8LrR1Q_cqGew729J458-XKV)
 - [各公司 LOGO](https://drive.google.com/drive/folders/1zvbNEro3r1Iyb69yiEcGdVSzWRaDnKRj)
 
-当前清点共 **38 张图像资产**。另发现 2 个 Windows 缩略图缓存文件，不计入资产。
+当前清点共 **39 张图像资产**。另发现 2 个 Windows 缩略图缓存文件，不计入资产。
 
 ## 人物｜角色设定卡（9 张）
 
@@ -43,12 +43,13 @@
 | [05_杰西卡_Jessica.png](https://drive.google.com/file/d/1z-u6FjO6WpkRl2gR1Nn1ER1wOmetCOQu/view?usp=drivesdk) | 杰西卡面部识别与近景连续性 |
 | [06_凯恩_Kane.png](https://drive.google.com/file/d/1ACwHlj23xFe-QEB2wZZ2kKHR2Ov9uKZP/view?usp=drivesdk) | 凯恩面部识别与近景连续性 |
 
-## 载具（2 张）
+## 载具（3 张）
 
 | 资产 | 参考用途 |
 |---|---|
 | [蚂蚱载具.jpg](https://drive.google.com/file/d/149UNHTFphcfj5PaeFWP4YPdZisWDn4S0/view?usp=drivesdk) | 866 的展开/收纳状态、机械腿、车轮、折叠翼、驾驶舱及多角度结构 |
 | [旧公司运输舰.jpg](https://drive.google.com/file/d/1T5xrFtr0SGB-RRu5Bnc3KdN-dCieQ53f/view?usp=drivesdk) | 旧公司运输舰外形与运输载具参考 |
+| [游商飞船-满载.jpg](https://drive.google.com/file/d/1bhM2lnXgsejV-NIBfl0JKnOexttGA4zs/view?usp=drivesdk) | 满载游商货船的宽体船身、侧面与上方多层货柜、黄黑警戒条纹、厚重着陆支腿和尾部多组推进喷口 |
 
 ## 道具（6 张）
 

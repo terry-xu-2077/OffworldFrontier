@@ -17,7 +17,7 @@
 
 当前清点共 **39 张图像资产**。另发现 2 个 Windows 缩略图缓存文件，不计入资产。
 
-## 人物｜角色设定卡（9 张）
+## 人物｜角色设定卡（10 张）
 
 | 资产 | 参考用途 |
 |---|---|
@@ -28,8 +28,9 @@
 | [04_马克_Mark.jpg](https://drive.google.com/file/d/1FYaGATouHbgbRRz9hrw4o-GGD5CDY1Wu/view?usp=drivesdk) | 马克的角色造型参考 |
 | [05_杰西卡_Jessica.jpg](https://drive.google.com/file/d/1wVkjSYOJU6lehR3M_o9R30yZSVeSr74H/view?usp=drivesdk) | 杰西卡的角色造型参考 |
 | [06_凯恩_Kane.jpeg](https://drive.google.com/file/d/1fPZftqteU_xOqqnb7Nupa3WURx6P0og7/view?usp=drivesdk) | 凯恩的角色造型参考 |
-| [07_Mi-17_小七（完好状态）.jpg](https://drive.google.com/file/d/1hX7MJxzGybWIGdHWLlv2yF1oKwKWrkNi/view?usp=drivesdk) | 小七紧凑形态：浅灰白猫耳轮廓圆角壳、黑色像素屏、淡蓝／黄／粉旧涂装条、底部单轮与短小侧摆臂；可在平整室内地面缓慢滚动，不能抓握物品 |
+| [07_Mi-17_小七（完好状态）.jpg](https://drive.google.com/file/d/1hX7MJxzGybWIGdHWLlv2yF1oKwKWrkNi/view?usp=drivesdk) | 小七过去完好状态：历史上曾具备移动能力；不代表当前状态仍可移动 |
 | [07_Mi-17_小七（机甲状态）.jpeg](https://drive.google.com/file/d/15BtPSs4RD_mX8X7bQQYGUhvSadkcsfp2/view?usp=drivesdk) | 小七与独立全尺寸工业机甲底盘的组合概念图；仅作视觉参考，是否纳入剧情待定 |
+| 07_Mi-17_小七_（残机状态）.jpeg（Drive 直链待同步） | 当前残机状态：无法自主移动；具体损坏原因与故障部件暂不推断 |
 
 ## 人物｜角色头像（7 张）
 
@@ -93,7 +94,7 @@
 
 ## 读取与使用说明
 
-- 已逐张实际打开并视觉检查本索引所列 39 张图像资产，涵盖角色设定卡与头像、载具、道具、生态生物、环境和公司 LOGO。
+- 当前索引登记 40 张图像资产，涵盖角色设定卡与头像、载具、道具、生态生物、环境和公司 LOGO。新增的残机状态图已按用户提供的文件名登记；由于当前 Drive 目录读取尚未返回该文件的可访问链接，待链接可用后补链并完成视觉核对。
 - 图片中的临时型号、自动生成文字、公司名或英文概念标签仅作为图像内容；只有经文字设定确认后才作为正典术语。
 - 以后为某集写分镜时，先根据镜头涉及的人物、场景、载具或道具，从本索引打开对应图片，再结合《美术资产库清单》和具体人物/世界设定。
 - 角色头像用于面部连续性；角色设定卡用于全身服装、比例和多角度造型；环境图用于空间布局、材质与光色；道具/载具/生物图用于结构与轮廓。不要把不同类别的图互相当成唯一依据。

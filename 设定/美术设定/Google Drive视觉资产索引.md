@@ -21,15 +21,15 @@
 
 | 资产 | 参考用途 |
 |---|---|
-| [00_特瑞_Terry.jpg](https://drive.google.com/file/d/1VwYvZB4WYyFK1kLYkUXB8LC4pqzsyPJt/view?usp=drivesdk) | 特瑞的脸部、全身服装及多角度造型参考。**待核验**：图中外披偏沙棕/卡其色，与美术清单中的“褪色酒红外套”描述不完全一致 |
+| [00_特瑞_Terry.jpg](https://drive.google.com/file/d/1VwYvZB4WYyFK1kLYkUXB8LC4pqzsyPJt/view?usp=drivesdk) | 特瑞的脸部、全身服装及多角度造型参考。视觉定稿为沙棕／浅赭色旧兜帽披覆外层、深灰工装内层与颈胸处护目镜／呼吸面罩组合；相关文字设定已按此修正 |
 | [01_莺_Nina.jpg](https://drive.google.com/file/d/1Kk4cxxlLjioNOQqMv-RtfqoOB39cpgmL/view?usp=drivesdk) | 莺的角色造型参考 |
 | [02_徐世嵘_Ronan_Xu.jpg](https://drive.google.com/file/d/124Gc7fUAObTHoaumwdXL_8BJU44pPLIg/view?usp=drivesdk) | 徐世嵘的角色造型参考 |
 | [03_维克托_Viktor.jpg](https://drive.google.com/file/d/1uuzj4cl2oEhavT5P873bphO5_Xh9cx0A/view?usp=drivesdk) | 维克托的角色造型参考 |
 | [04_马克_Mark.jpg](https://drive.google.com/file/d/1FYaGATouHbgbRRz9hrw4o-GGD5CDY1Wu/view?usp=drivesdk) | 马克的角色造型参考 |
 | [05_杰西卡_Jessica.jpg](https://drive.google.com/file/d/1wVkjSYOJU6lehR3M_o9R30yZSVeSr74H/view?usp=drivesdk) | 杰西卡的角色造型参考 |
 | [06_凯恩_Kane.jpeg](https://drive.google.com/file/d/1fPZftqteU_xOqqnb7Nupa3WURx6P0og7/view?usp=drivesdk) | 凯恩的角色造型参考 |
-| [07_Mi-17_小七（完好状态）.jpg](https://drive.google.com/file/d/1hX7MJxzGybWIGdHWLlv2yF1oKwKWrkNi/view?usp=drivesdk) | 小七外观参考；仍需服从当前小七设定 |
-| [07_Mi-17_小七（机甲状态）.jpeg](https://drive.google.com/file/d/15BtPSs4RD_mX8X7bQQYGUhvSadkcsfp2/view?usp=drivesdk) | **待核验**：文件名暗示机甲形态，可能与当前“小七是不可移动的桌面 AI 残机”设定冲突；未经确认不作为正典 |
+| [07_Mi-17_小七（完好状态）.jpg](https://drive.google.com/file/d/1hX7MJxzGybWIGdHWLlv2yF1oKwKWrkNi/view?usp=drivesdk) | 小七紧凑形态：浅灰白猫耳轮廓圆角壳、黑色像素屏、淡蓝／黄／粉旧涂装条、底部单轮与短小侧摆臂；可在平整室内地面缓慢滚动，不能抓握物品 |
+| [07_Mi-17_小七（机甲状态）.jpeg](https://drive.google.com/file/d/15BtPSs4RD_mX8X7bQQYGUhvSadkcsfp2/view?usp=drivesdk) | 重型机甲承载形态：Mi-17 终端接入独立全尺寸工业机甲底盘；不是小型机体瞬间变形，剧情使用时需交代底盘来源、连接与部署过程 |
 
 ## 人物｜角色头像（7 张）
 
@@ -92,8 +92,8 @@
 
 ## 读取与使用说明
 
-- 已通过当前连接的 Google Drive 实际读取并视觉检查：特瑞角色设定卡、蚂蚱载具、生物电池、开场遗迹、地下虫群四种变体。
-- 其余条目已核对文件名、目录位置和文件类型；不代表所有图片均已逐张视觉审核。
+- 已逐张实际打开并视觉检查本索引所列 38 张图像资产，涵盖角色设定卡与头像、载具、道具、生态生物、环境和公司 LOGO。
+- 图片中的临时型号、自动生成文字、公司名或英文概念标签仅作为图像内容；只有经文字设定确认后才作为正典术语。
 - 以后为某集写分镜时，先根据镜头涉及的人物、场景、载具或道具，从本索引打开对应图片，再结合《美术资产库清单》和具体人物/世界设定。
 - 角色头像用于面部连续性；角色设定卡用于全身服装、比例和多角度造型；环境图用于空间布局、材质与光色；道具/载具/生物图用于结构与轮廓。不要把不同类别的图互相当成唯一依据。
 - 若文件移动、重命名或替换，请同步更新本索引。

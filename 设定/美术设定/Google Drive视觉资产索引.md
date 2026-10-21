@@ -29,7 +29,7 @@
 | [05_杰西卡_Jessica.jpg](https://drive.google.com/file/d/1wVkjSYOJU6lehR3M_o9R30yZSVeSr74H/view?usp=drivesdk) | 杰西卡的角色造型参考 |
 | [06_凯恩_Kane.jpeg](https://drive.google.com/file/d/1fPZftqteU_xOqqnb7Nupa3WURx6P0og7/view?usp=drivesdk) | 凯恩的角色造型参考 |
 | [07_Mi-17_小七（完好状态）.jpg](https://drive.google.com/file/d/1hX7MJxzGybWIGdHWLlv2yF1oKwKWrkNi/view?usp=drivesdk) | 小七紧凑形态：浅灰白猫耳轮廓圆角壳、黑色像素屏、淡蓝／黄／粉旧涂装条、底部单轮与短小侧摆臂；可在平整室内地面缓慢滚动，不能抓握物品 |
-| [07_Mi-17_小七（机甲状态）.jpeg](https://drive.google.com/file/d/15BtPSs4RD_mX8X7bQQYGUhvSadkcsfp2/view?usp=drivesdk) | 重型机甲承载形态：Mi-17 终端接入独立全尺寸工业机甲底盘；不是小型机体瞬间变形，剧情使用时需交代底盘来源、连接与部署过程 |
+| [07_Mi-17_小七（机甲状态）.jpeg](https://drive.google.com/file/d/15BtPSs4RD_mX8X7bQQYGUhvSadkcsfp2/view?usp=drivesdk) | 小七与独立全尺寸工业机甲底盘的组合概念图；仅作视觉参考，是否纳入剧情待定 |
 
 ## 人物｜角色头像（7 张）
 

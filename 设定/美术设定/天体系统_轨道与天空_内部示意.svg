@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="930" viewBox="0 0 1600 930" role="img" aria-labelledby="title desc">
+<title id="title">异星边境 · 恒星、环带巨行星、荒星卫星与基地天空制作示意</title>
+<desc id="desc">内部非比例概念图：左侧展示恒星、被照亮的环带巨行星及环绕它的荒星卫星；右侧展示从朝向巨行星的基地看去的稳定天空方向及季节性环带色彩。精确参数待建模。</desc>
+<defs>
+ <radialGradient id="bg"><stop stop-color="#1E3046"/><stop offset="1" stop-color="#0A1424"/></radialGradient>
+ <radialGradient id="sun"><stop stop-color="#FFF3C2"/><stop offset=".58" stop-color="#F6C48A"/><stop offset="1" stop-color="#CB8055"/></radialGradient>
+ <radialGradient id="giant"><stop stop-color="#A9C0CC"/><stop offset=".52" stop-color="#718EAA"/><stop offset="1" stop-color="#455778"/></radialGradient>
+ <radialGradient id="moon"><stop stop-color="#8995B2"/><stop offset=".7" stop-color="#526B86"/><stop offset="1" stop-color="#2A3A55"/></radialGradient>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#142741"/><stop offset=".72" stop-color="#42566C"/><stop offset="1" stop-color="#5C4B62"/></linearGradient>
+ <linearGradient id="rim" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#93ABC8"/><stop offset=".52" stop-color="#E0C6B3"/><stop offset="1" stop-color="#8395B9"/></linearGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="8"/></filter>
+ <clipPath id="panel"><rect x="1030" y="145" width="528" height="615" rx="18"/></clipPath>
+</defs>
+<rect width="1600" height="930" fill="#0A1221"/>
+<rect x="0" y="0" width="1600" height="103" fill="#142337"/>
+<text x="54" y="48" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#F0F5F8" font-size="29" font-weight="bold">异星边境  ·  天体系统与天空连续性</text>
+<text x="56" y="81" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#A8BCCF" font-size="16">幕后概念示意  /  Orbital &amp; sky reference  /  NOT TO SCALE</text>
+<rect x="37" y="125" width="970" height="650" rx="20" fill="#101C2F" stroke="#3A4F63" stroke-width="2"/>
+<text x="70" y="171" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#E1EAF0" font-size="21" font-weight="bold">01   恒星 → 环带巨行星 → 荒星卫星</text>
+<text x="71" y="199" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#91A8C2" font-size="14">结构层级示意：两个公转周期，长周期季节与短周期天象不可混为一谈</text>
+<!-- The primary star and orbital illumination -->
+<circle cx="180" cy="412" r="73" fill="#F5A878" opacity=".25" filter="url(#soft)"/>
+<circle cx="180" cy="412" r="59" fill="url(#sun)"/>
+<circle cx="180" cy="412" r="78" fill="none" stroke="#E9BD85" stroke-width="1" opacity=".22"/>
+<path d="M280 394L375 366 M280 420L376 415 M278 442L375 466" stroke="#E6CA93" stroke-width="3" stroke-dasharray="10 11" opacity=".65"/>
+<path d="M366 362l-10 0 5 9z M365 412l-10 -3 0 9z M366 466l-10 -6 -2 10z" fill="#E6CA93"/>
+<text x="179" y="523" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" fill="#F1E1C8">恒星</text>
+<text x="179" y="551" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" fill="#99B0C5">主要光热</text>
+<!-- Moon satellite orbit around gas giant -->
+<ellipse cx="600" cy="411" rx="277" ry="123" transform="rotate(-9 600 411)" fill="none" stroke="#5B8AAB" stroke-width="2.5" stroke-dasharray="9 11" opacity=".8"/>
+<path d="M730 279Q801 293 839 344" fill="none" stroke="#79AED1" stroke-width="2"/>
+<path d="M826 341l18 9 -2 -20" fill="none" stroke="#79AED1" stroke-width="2"/>
+<!-- Giant with its ring -->
+<g transform="rotate(-16 600 410)">
+ <ellipse cx="600" cy="410" rx="159" ry="49" fill="none" stroke="#A2C5D4" stroke-width="22" opacity=".30"/>
+ <ellipse cx="600" cy="410" rx="147" ry="44" fill="none" stroke="#D5D5C6" stroke-width="12" opacity=".85"/>
+ <ellipse cx="600" cy="410" rx="111" ry="31" fill="none" stroke="#7695AC" stroke-width="7" opacity=".8"/>
+</g>
+<circle cx="600" cy="410" r="70" fill="url(#giant)"/>
+<path d="M546 378Q600 395 657 374 M541 414Q600 433 659 407 M551 448Q600 464 642 451" fill="none" stroke="#C7D2D2" stroke-width="9" opacity=".20"/>
+<path d="M453 447Q600 514 746 369" fill="none" stroke="#F0D8B7" stroke-width="8" opacity=".85"/>
+<path d="M469 435Q596 485 727 383" fill="none" stroke="#9AB4BF" stroke-width="5" opacity=".8"/>
+<text x="600" y="544" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="bold" fill="#E5EDF2">环带巨行星</text>
+<text x="600" y="570" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" fill="#99B0C5">主行星 / 近似类土星</text>
+<!-- Moon -->
+<circle cx="865" cy="370" r="35" fill="url(#moon)" stroke="#B7C4D2" stroke-width="2"/>
+<path d="M840 369L862 359 874 380 893 378 M857 340L863 358 850 384" fill="none" stroke="#A9BCCF" stroke-width="2.5" opacity=".45"/>
+<circle cx="865" cy="370" r="42" fill="none" stroke="#9FC0CD" opacity=".3"/>
+<text x="865" y="452" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="bold" fill="#E5EDF2">荒星</text>
+<text x="865" y="479" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" fill="#99B0C5">岩质卫星</text>
+<path d="M862 489L862 528" stroke="#607F9B" stroke-width="2"/>
+<circle cx="862" cy="537" r="5" fill="#EDB783"/>
+<text x="862" y="563" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" fill="#E8C6A2">基地位于面向巨行星的一侧</text>
+<rect x="78" y="623" width="875" height="111" rx="13" fill="#20324A"/>
+<text x="104" y="656" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="17" font-weight="bold" fill="#DCE6ED">长周期｜巨行星系统绕恒星</text>
+<text x="104" y="684" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="15" fill="#AFC6D7">定义受光季节：风汛窗口、封沙月、长夜季的长期背景</text>
+<text x="104" y="712" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="15" fill="#AFC6D7">短周期｜荒星绕巨行星：潮汐、局部遮蔽和环带角度变化</text>
+<!-- right panel -->
+<rect x="1025" y="125" width="537" height="650" rx="20" fill="#17253A" stroke="#3A4F63" stroke-width="2"/>
+<text x="1056" y="171" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#E1EAF0" font-size="21" font-weight="bold">02   主井基地：可见半球</text>
+<text x="1056" y="199" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#91A8C2" font-size="14">同地点视线的大方向保持连续；季节改变的是受光与大气</text>
+<g clip-path="url(#panel)">
+<rect x="1030" y="218" width="528" height="400" fill="url(#sky)"/>
+<g fill="#BFCDE2" opacity=".85">
+<circle cx="1084" cy="258" r="1.5"/><circle cx="1112" cy="335" r="1"/><circle cx="1500" cy="285" r="1.3"/><circle cx="1430" cy="370" r="1.1"/><circle cx="1212" cy="251" r="1"/>
+</g>
+<g transform="rotate(-14 1305 368)">
+<ellipse cx="1305" cy="368" rx="182" ry="49" fill="none" stroke="#82ABCD" stroke-width="22" opacity=".36"/>
+<ellipse cx="1305" cy="368" rx="174" ry="48" fill="none" stroke="url(#rim)" stroke-width="11" opacity=".9"/>
+<ellipse cx="1305" cy="368" rx="133" ry="37" fill="none" stroke="#F1D8B9" stroke-width="6" opacity=".68"/>
+</g>
+<circle cx="1305" cy="368" r="74" fill="url(#giant)"/>
+<path d="M1233 350Q1300 364 1375 347 M1236 392Q1300 407 1373 388" stroke="#C2D4DE" stroke-width="12" fill="none" opacity=".23"/>
+<path d="M1127 411Q1305 487 1482 325" fill="none" stroke="#F0D9C0" stroke-width="8" opacity=".78"/>
+<path d="M1146 400Q1305 464 1460 341" fill="none" stroke="#7AA2BA" stroke-width="5" opacity=".8"/>
+<path d="M1030 581L1098 531 1146 555 1194 503 1260 552 1305 520 1405 569 1450 530 1558 573V645H1030Z" fill="#273348"/>
+<path d="M1030 613L1110 586 1151 607 1235 577 1300 612 1395 574 1500 607 1558 589V645H1030Z" fill="#171E33"/>
+<path d="M1270 610h86v-42h-86z M1302 552v-55 M1290 519h24" stroke="#8EA8B9" stroke-width="4" fill="#30425A"/>
+<rect x="1299" y="585" width="10" height="13" fill="#E4B37C"/>
+<path d="M1046 618H1544" stroke="#778294" stroke-width="2" opacity=".3"/>
+</g>
+<text x="1057" y="657" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="15" fill="#D7E6F0">巨行星相对基地的天区方向大致稳定</text>
+<text x="1057" y="685" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" fill="#ABC1D3">环带受光、相位、矿尘会改变它的观感</text>
+<g transform="translate(1057 709)">
+<circle cx="15" cy="11" r="10" fill="#C4D8E7"/><text x="33" y="16" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" fill="#C5D5E2">冷银</text>
+<circle cx="123" cy="11" r="10" fill="#E2BF8D"/><text x="141" y="16" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" fill="#C5D5E2">暖金</text>
+<circle cx="231" cy="11" r="10" fill="#927B73"/><text x="249" y="16" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" fill="#C5D5E2">灰褐</text>
+<circle cx="339" cy="11" r="10" fill="#6C91B4"/><text x="357" y="16" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" fill="#C5D5E2">蓝灰</text>
+</g>
+<rect x="38" y="798" width="1524" height="90" rx="14" fill="#18283B"/>
+<text x="65" y="834" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#EED2B2" font-size="19" font-weight="bold">制作提醒</text>
+<text x="190" y="834" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#BCD1DE" font-size="17">这是结构示意，不是准确比例或轨道模拟。倾角、周期、纬度与仰角待验证。</text>
+<text x="190" y="861" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#9FB8C8" font-size="16">规则用于分镜和美术统一；不在剧中安排科学原理讲解。短时行星食不能当成数月长夜季。</text>
+</svg>

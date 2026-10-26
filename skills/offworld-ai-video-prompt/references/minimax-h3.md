@@ -1,6 +1,6 @@
 # MiniMax H3｜仅明确指定时启用
 
-**本项目默认 Seedance 2.5 参考生图。用户明确指定 MiniMax H3 / H3 后才进入此模块。** 本项目仍需先整理 [全局资产与缺图清单](asset-preparation.md)：已有 Drive 文件仅列真实文件名，缺少重要资产就用一段 Nano Banana／GPT 中文自然语言生图提示词占位，由导演补图并上传。**但 `[全局资产]` 是交付时置于 H3 提示词块之前的制作清单，不属于官方 H3 的模型输入字段**；下方独立复制的 H3 纯提示词必须严格保持官方结构。 严格采用当前 MiniMax 官方 [h3-prompt-writing Skill](https://github.com/MiniMax-AI/MiniMax-H3/tree/main/skills/h3-prompt-writing) 的文本结构；执行时按需读取：
+**本项目默认 Seedance 2.5 参考生图。用户明确指定 MiniMax H3 / H3 后才进入此模块。** 每场尚无母图时先输出一次 [核心电影静帧](core-scene-keyframe.md)，再输出独立的 `[全局资产]` 制作清单，**两者都放在 H3 官方格式纯提示词代码块之外**；实际成图后才能作为 H3 的真实参考资产输入。 本项目仍需先整理 [全局资产与缺图清单](asset-preparation.md)：已有 Drive 文件仅列真实文件名，缺少重要资产就用一段 Nano Banana／GPT 中文自然语言生图提示词占位，由导演补图并上传。**但 `[全局资产]` 是交付时置于 H3 提示词块之前的制作清单，不属于官方 H3 的模型输入字段**；下方独立复制的 H3 纯提示词必须严格保持官方结构。 严格采用当前 MiniMax 官方 [h3-prompt-writing Skill](https://github.com/MiniMax-AI/MiniMax-H3/tree/main/skills/h3-prompt-writing) 的文本结构；执行时按需读取：
 - [官方 SKILL.md](https://github.com/MiniMax-AI/MiniMax-H3/blob/main/skills/h3-prompt-writing/SKILL.md)
 - [T2VA / I2VA / FL2VA / L2VA 模式规范](https://github.com/MiniMax-AI/MiniMax-H3/blob/main/skills/h3-prompt-writing/references/base-en.txt)
 - [Ref2VA 模式规范](https://github.com/MiniMax-AI/MiniMax-H3/blob/main/skills/h3-prompt-writing/references/ref-en.txt)

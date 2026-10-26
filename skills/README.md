@@ -16,7 +16,7 @@
 - AI 视频提示词与制作：`references/production.md`
 - 原始资料与授权：`references/sources.md`
 
-导演人格维护的参考文件位于 `director-persona-maintainer/references/`：人格正文是长期决策模型，审美文件用于匹配不同导演镜头风格、记录导演本人确认的作品偏好。二者不复制正式剧本和设定。
+导演人格维护的参考文件位于 `director-persona-maintainer/references/`：[人格正文](director-persona-maintainer/references/导演代理人格.md)维护长期价值取舍，[创作与迭代方法论](director-persona-maintainer/references/影视叙事创作与迭代方法论.md)维护案例驱动的场景诊断、方案比较及五步验证，[审美文件](director-persona-maintainer/references/导演审美印象与作品偏好.md)用于摄影风格与作品偏好。按需加载，不复制正式剧本和设定。
 
 用户的最新创作决定与仓库正典优先；第一季提案、灵感池和旧电影版限制不得自动上升为通用规则。写剧本时不提前强塞导演镜头表；写分镜时才使用逐镜控制卡。
 

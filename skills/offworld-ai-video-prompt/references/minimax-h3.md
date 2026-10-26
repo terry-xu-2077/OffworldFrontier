@@ -23,11 +23,11 @@
 
 对于 T2VA/I2VA/FL2VA/L2VA，主体结构**英文**为：
 
-`
+```text
 integrated_multimodal_description: [Shot 1] ... [Shot 2] At 00:03.500, the camera cuts to ...
 overall_soundscape: ...
 non_diegetic_music: N/A
-`
+```
 
 字段之间空一行。**第一镜标`[Shot 1]`，不加时间码**；其后切镜`[Shot N] At MM:SS.mmm,`，严格递增，不能超出总长度。若单镜，无后续`[Shot 2]`。声源编号按声音第一次出现顺序用`(S1)`、`(S2)`，跨镜重用。中文对白原样放入`<d>[Chinese]原对白</d>`，人物身份、口气、说话动作留在标签外；不改写台词。画外配乐默认字段`non_diegetic_music: N/A`；这个`N/A`只表示**无非现场配乐**，环境声照写。
 

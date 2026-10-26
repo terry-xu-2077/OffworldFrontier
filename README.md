@@ -10,7 +10,7 @@
 
 ## 创作入口
 
-**写剧本、分镜与视频提示词**：从 [编剧 × 导演分镜项目 Skill](skills/offworld-storyboard-director/SKILL.md) 开始，按需查阅 [技能模块索引](skills/README.md)，再核对当前正典专题。用户只需在本项目对话说“帮我写脚本”，不必每次重贴技能来源。仓库 Skill 供对话时读取，不等于 ChatGPT 全局安装。
+**写剧本、分镜**：从 [编剧 × 导演分镜 Skill](skills/offworld-storyboard-director/SKILL.md) 开始。**将已写分镜转成 AI 视频提示词**：使用 [AI 视频提示词 Skill](skills/offworld-ai-video-prompt/SKILL.md)，默认 **Seedance 2.5**，只有明确要求 **MiniMax H3** 时切换专用格式。按需查阅 [技能模块索引](skills/README.md)，再核对当前正典专题。用户只需在本项目对话说“帮我写脚本”，不必每次重贴技能来源。仓库 Skill 供对话时读取，不等于 ChatGPT 全局安装。
 
 
 

@@ -1,6 +1,6 @@
 # MiniMax H3｜仅明确指定时启用
 
-**本项目默认 Seedance 2.5。用户明确指定 MiniMax H3 / H3 后才进入此模块。** 严格采用当前 MiniMax 官方 [h3-prompt-writing Skill](https://github.com/MiniMax-AI/MiniMax-H3/tree/main/skills/h3-prompt-writing) 的文本结构；执行时按需读取：
+**本项目默认 Seedance 2.5 参考生图。用户明确指定 MiniMax H3 / H3 后才进入此模块。** 本项目仍需先整理 [全局资产与缺图清单](asset-preparation.md)：已有 Drive 文件仅列真实文件名，缺少重要资产就用一段 Nano Banana／GPT 中文自然语言生图提示词占位，由导演补图并上传。**但 `[全局资产]` 是交付时置于 H3 提示词块之前的制作清单，不属于官方 H3 的模型输入字段**；下方独立复制的 H3 纯提示词必须严格保持官方结构。 严格采用当前 MiniMax 官方 [h3-prompt-writing Skill](https://github.com/MiniMax-AI/MiniMax-H3/tree/main/skills/h3-prompt-writing) 的文本结构；执行时按需读取：
 - [官方 SKILL.md](https://github.com/MiniMax-AI/MiniMax-H3/blob/main/skills/h3-prompt-writing/SKILL.md)
 - [T2VA / I2VA / FL2VA / L2VA 模式规范](https://github.com/MiniMax-AI/MiniMax-H3/blob/main/skills/h3-prompt-writing/references/base-en.txt)
 - [Ref2VA 模式规范](https://github.com/MiniMax-AI/MiniMax-H3/blob/main/skills/h3-prompt-writing/references/ref-en.txt)
@@ -17,9 +17,11 @@
 | L2VA | 仅锁末帧，合理推导前序动作并最终抵达所给画面 |
 | Ref2VA | 多图、视频、音频及可重用主体等**全参考关系**，要用专用六字段结构；图像用于定义角色时不等于独立首帧 |
 
-不根据“上传过图片”一概选 I2VA。上一镜画面若只是身份、道具或光线参考而非首帧锚定，要对应选择真正可实现的模式。若没有素材，不许杜撰`<Picture 1>` 等标签。
+参考生图准备清单中列了文件，不代表这些文件已接入 H3。实际同时有角色／场景／道具等多图参考，且后端提供 Ref2VA 时，按真实输入编写相应六字段；缺失的先补图。**不根据“上传过图片”一概选 I2VA。**上一镜画面若只是身份、道具或光线参考而非首帧锚定，要对应选择真正可实现的模式。若没有素材，不许杜撰`<Picture 1>` 等标签。
 
 ## 2. H3 官方基础字段，不混 Seedance 标题
+
+**交付结构：** 先给用户独立的 `[全局资产]` 制作清单（可含待生成资产及其中文生图提示词），然后以**另一个代码块**提供完整英文 H3 纯提示词，便于只复制该块到模型。官方指令必须仍然是 H3 模型提示词自己的第一行。
 
 对于 T2VA/I2VA/FL2VA/L2VA，主体结构**英文**为：
 

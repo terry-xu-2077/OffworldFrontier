@@ -13,7 +13,7 @@
 - 剧本、角色、对白：`references/dramaturgy.md`
 - 分镜、构图、机位：`references/cinematography.md`
 - 多镜头动作与道具状态：`references/continuity.md`
-- AI 视频制作通用规则：`references/production.md`；**模型提示词 Skill**：[`offworld-ai-video-prompt/SKILL.md`](offworld-ai-video-prompt/SKILL.md)（[全局资产与补图](offworld-ai-video-prompt/references/asset-preparation.md)／[Seedance 2.5](offworld-ai-video-prompt/references/seedance-2.5.md)／[MiniMax H3](offworld-ai-video-prompt/references/minimax-h3.md)）
+- AI 视频制作通用规则：`references/production.md`；**场景先制作一张核心电影静帧，再进行模型提示词转译**；**模型提示词 Skill**：[`offworld-ai-video-prompt/SKILL.md`](offworld-ai-video-prompt/SKILL.md)（[核心电影静帧](offworld-ai-video-prompt/references/core-scene-keyframe.md)／[全局资产与补图](offworld-ai-video-prompt/references/asset-preparation.md)／[Seedance 2.5](offworld-ai-video-prompt/references/seedance-2.5.md)／[MiniMax H3](offworld-ai-video-prompt/references/minimax-h3.md)）
 - 原始资料与授权：`references/sources.md`
 
 导演人格维护的参考文件位于 `director-persona-maintainer/references/`：[人格正文](director-persona-maintainer/references/导演代理人格.md)维护长期价值取舍，[创作与迭代方法论](director-persona-maintainer/references/影视叙事创作与迭代方法论.md)维护案例驱动的场景诊断、方案比较及五步验证，[审美文件](director-persona-maintainer/references/导演审美印象与作品偏好.md)用于摄影风格与作品偏好。按需加载，不复制正式剧本和设定。

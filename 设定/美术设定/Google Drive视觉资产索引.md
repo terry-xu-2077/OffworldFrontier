@@ -66,7 +66,7 @@
 
 | 资产 | 参考用途 |
 |---|---|
-| [地下虫群-4种变体.jpg](https://drive.google.com/file/d/1GyIONfQEFUtbQluE0KOzDc9V2skryShW/view?usp=drivesdk) | 地下虫群四种形态：护卫、采集、挖掘、侦察的外形区分 |
+| [地下虫群-4种变体.jpg](https://drive.google.com/file/d/1nsbd73M2sQhuCCnZh1wphX-M1IdaHLC0/view?usp=drivesdk) | 2026-10-27 更新后的正式四型资产：护卫（大钳、无长角）、采集（透明腹囊）、挖掘（厚重楔形前肢）、侦查（修长后伸甲壳）；共同具有浅灰紫色岩质叠甲和局部冰蓝纹理。下次读图前须确认目录中的当前同名文件 ID |
 | [地下深处-虫群母巢.jpg](https://drive.google.com/file/d/1gOjlEdJeQi1S8uzv2bD71ksi8w8V9oBw/view?usp=drivesdk) | 深层母巢空间、石隙生命体的大型母巢共生形态、多囊状结构与虫群活动关系 |
 | [绿洲-无足爬行生物.jpg](https://drive.google.com/file/d/1tavuHE-AuyCPsPsqPKi55NyF3xgR2eZ7/view?usp=drivesdk) | 绿洲区域无足爬行生物参考 |
 | [高空-浮空生物.jpg](https://drive.google.com/file/d/1CpNHAFemrA5UGHCuE5Rxkjn_KjSQzlZt/view?usp=drivesdk) | 高空浮空生物的轮廓、漂浮形态与尺度参考 |

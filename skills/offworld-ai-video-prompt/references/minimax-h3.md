@@ -1,6 +1,6 @@
 # MiniMax H3｜仅明确指定时启用
 
-**本项目默认 Seedance 2.5 参考生图。用户明确指定 MiniMax H3 / H3 后才进入此模块。** 每场尚无母图时先输出一次 [核心电影静帧](core-scene-keyframe.md)，再输出独立的 `[全局资产]` 制作清单，**两者都放在 H3 官方格式纯提示词代码块之外**；实际成图后才能作为 H3 的真实参考资产输入。 本项目仍需先整理 [全局资产与缺图清单](asset-preparation.md)：已有 Drive 文件仅列真实文件名，缺少重要资产就用一段 Nano Banana／GPT 中文自然语言生图提示词占位，由导演补图并上传。**但 `[全局资产]` 是交付时置于 H3 提示词块之前的制作清单，不属于官方 H3 的模型输入字段**；下方独立复制的 H3 纯提示词必须严格保持官方结构。 严格采用当前 MiniMax 官方 [h3-prompt-writing Skill](https://github.com/MiniMax-AI/MiniMax-H3/tree/main/skills/h3-prompt-writing) 的文本结构；执行时按需读取：
+**本项目默认 Seedance 2.5 参考生图。用户明确指定 MiniMax H3 / H3 后才进入此模块。** 每场尚无母图时先输出一次 [核心电影静帧](core-scene-keyframe.md)，再输出独立的 `[全局资产]` 类型化制作参考清单，**两者都放在 H3 官方格式纯提示词代码块之外**；实际成图并绑定后才能作为 H3 的真实参考资产输入。全局清单使用 `<Picture 名称>`、`<Audio 名称>`、`<Video 名称>`；缺失图片用同名 `<Picture>` + `<Prompt>`，由节点提取生图内容并从视频提示词中剥离。**这些中文命名标签属于 TerryDirector 制作侧，不属于 H3 官方模型输入字段**；下方独立复制的 H3 纯提示词必须严格保持官方结构。严格采用当前 MiniMax 官方 [h3-prompt-writing Skill](https://github.com/MiniMax-AI/MiniMax-H3/tree/main/skills/h3-prompt-writing) 的文本结构；执行时按需读取：
 - [官方 SKILL.md](https://github.com/MiniMax-AI/MiniMax-H3/blob/main/skills/h3-prompt-writing/SKILL.md)
 - [T2VA / I2VA / FL2VA / L2VA 模式规范](https://github.com/MiniMax-AI/MiniMax-H3/blob/main/skills/h3-prompt-writing/references/base-en.txt)
 - [Ref2VA 模式规范](https://github.com/MiniMax-AI/MiniMax-H3/blob/main/skills/h3-prompt-writing/references/ref-en.txt)
@@ -21,7 +21,9 @@
 
 ## 2. H3 官方基础字段，不混 Seedance 标题
 
-**交付结构：** 先给用户独立的 `[全局资产]` 制作清单（可含待生成资产及其中文生图提示词），然后以**另一个代码块**提供完整英文 H3 纯提示词，便于只复制该块到模型。官方指令必须仍然是 H3 模型提示词自己的第一行。
+**制作侧与模型侧标签必须分开：** `<Picture 特瑞>`、`<Audio 特瑞声线>`、`<Video FPV运动参考>` 是全局制作清单中的语义引用；H3 正式提示词中的 `<Picture 1>`、`<Audio 1>`、`<Video 1>` 是根据真实输入顺序生成的官方编号。两者不能直接互换，也不能把 `<Prompt>` 块送入 H3。只有在资产实际映射完成后，才为 H3 正式字段分配数字编号。
+
+**交付结构：** 先给用户独立的 `[全局资产]` 类型化制作清单，然后以**另一个代码块**提供完整英文 H3 纯提示词，便于只复制该块到模型。若存在待生成图片，制作清单中写同名 `<Picture 名称>` + `<Prompt 名称>`；节点先提取并剥离 `<Prompt>` 块，图片导入后再绑定 `<Picture>`。官方指令必须仍然是 H3 模型提示词自己的第一行。
 
 对于 T2VA/I2VA/FL2VA/L2VA，主体结构**英文**为：
 

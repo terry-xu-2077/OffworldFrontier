@@ -30,7 +30,7 @@ description: 为《异星边境》将导演已写分镜转译为AI视频提示�
 ## 2. 读取链：轻量但真实
 
 1. **导演输入**：本轮用户描述／现行导演分镜；必要时查对应剧本获取明确对白和戏剧因果。**已有导演正式镜头时，不得凭技术便利擅改镜号、机位、时长或事件**；若只收到一镜，处理这一镜，不补写下一镜。**例外仅限导演明确提出从剧本直出视频测试稿**：按剧本设计临时镜头，不写入正式分镜。
-2. **创作与摄影**：`AGENTS.md`、[摄影](../offworld-storyboard-director/references/cinematography.md)、[连续性](../offworld-storyboard-director/references/continuity.md)、[制作](../offworld-storyboard-director/references/production.md)。出现重大创作争议时再读 [导演代理人格](../director-persona-maintainer/references/导演代理人格.md)，不把“转译提示词”变成漫长审稿。
+2. **创作与摄影**：`AGENTS.md`、[摄影](../offworld-storyboard-director/references/cinematography.md)、[连续性](../offworld-storyboard-director/references/continuity.md)、[制作](../offworld-storyboard-director/references/production.md)。出现重大创作争议时再读 [导演代理人格](../../创作/导演人格/references/导演代理人格.md)，不把“转译提示词”变成漫长审稿。
 3. **视觉身份与资产匹配**：先读 [Google Drive 视觉资产索引](../../设定/美术设定/Google%20Drive视觉资产索引.md)，必要时查 Drive 实际目录确认最新文件名，并读 [全局资产与缺图规则](references/asset-preparation.md)。**仅在 `[全局资产]` 列文件名不需重写外观描述**；但当任务实际要生成核心电影静帧/关键帧图片，必须执行 [默认生图 Skill](../offworld-image-generation/SKILL.md)：实际读取角色/载具/关键道具的原始图片作为身份参考，配合反推中文结构描述；环境基调从正式环境原图反推成文字，需要精确空间时再单独用环境图锁定布局。并按需读1–3份人物／场景／生物／机械专题。无法打开时标明依据索引或待核验，不假称已看图或已绑定；图中自动生成文字不是正典。
 4. **场景视觉锚点与模型专项**：逐镜转译模式中如该场尚无已确认母图，读取 [核心电影静帧](references/core-scene-keyframe.md) 并提供场景级母图；**W剧本直出模式仅在缺少关键空间/身份参考时**将母图作为提示词外的制作附件；默认 [Seedance 2.5 参考生图](references/seedance-2.5.md)，明确指定 H3 才读 [H3](references/minimax-h3.md)。需要示范时可看 [E01 场景级母图与批次示例](references/e01-examples.md)。
 

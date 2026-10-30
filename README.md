@@ -18,7 +18,7 @@
 
 **Agent 从 [设定速查索引](设定/速查索引.md) 按需查阅，不要通读整个设定目录。** 可运行 `python scripts/canon_lookup.py route "关键词"` 定位专题，`headings` 看章节，再用 `read` 只取相关段落；索引不会复制正典。
 
-1. [导演人格维护 Skill](skills/director-persona-maintainer/SKILL.md) — 负责从导演反馈中去重、验证和更新长期判断。其 [导演人格 V3.9](skills/director-persona-maintainer/references/导演代理人格.md) 是**唯一人格正文**；[审美印象与作品偏好](skills/director-persona-maintainer/references/导演审美印象与作品偏好.md) 记录电影语言坐标及导演亲自补充的电影／剧集／游戏偏好。不是导演定稿授权。
+1. [director-persona-maintainer 通用技能](skills/director-persona-maintainer/SKILL.md) — 跨项目复用的创作者人格维护方法。**本项目必须配合**[《异星边境》导演人格项目适配文件](创作/导演人格/项目适配.md)使用；[导演人格 V3.9](创作/导演人格/references/导演代理人格.md)是本项目唯一人格正文，[审美印象与作品偏好](创作/导演人格/references/导演审美印象与作品偏好.md)记录电影语言坐标及导演亲自补充的电影／剧集／游戏偏好。人格资料与通用技能分开存放，不代表导演定稿授权。
 2. [创作方向](创作/创作方向.md) — 当前唯一的叙事原则与正典规则。
 3. [人物关系与冲突](创作/人物关系与冲突.md) — 八位角色的欲望、弱点与关系张力（提案）。
 4. [人物生活事件实验库](创作/人物生活事件实验库.md) — 低成本可拍冲突实验（提案）。

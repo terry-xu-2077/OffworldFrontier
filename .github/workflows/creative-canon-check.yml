@@ -16,6 +16,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Test video batch validator
+        run: python3 -m unittest discover -s tests -v
+      - name: Validate video prompt documents
+        run: python3 scripts/check_video_batches.py
       - name: Check topic index routes
         run: python3 scripts/canon_lookup.py check
       - name: Smoke-test bounded lookup
@@ -26,7 +30,3 @@ jobs:
           python3 scripts/canon_lookup.py search "能量匣" > /dev/null
       - name: Scan canon and episode scripts
         run: python3 scripts/check_canon.py
-      - name: Test video batch validator
-        run: python3 -m unittest discover -s tests -v
-      - name: Validate video prompt documents
-        run: python3 scripts/check_video_batches.py

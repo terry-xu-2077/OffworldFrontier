@@ -33,7 +33,7 @@
 - [MiniMax H3](offworld-ai-video-director/references/11_minimax-h3.md)
 - [质量审查与生成结果复盘](offworld-ai-video-director/references/12_quality-review.md)
 - [方法来源与案例](offworld-ai-video-director/references/13_reference-methods.md)
-- [蓄势—释放：动作、表演、摄影、声音与剧情张力](offworld-ai-video-director/references/14_tension-and-release.md)
+- [跳跃镜头专项：前摇、蓄力、弹射与落地](offworld-ai-video-director/references/14_jump-preparation.md)
 
 同时遵循仓库根目录 AGENTS.md、创作/创作方向.md，按需核对 1–3 份权威正典专题。Terry 的个人基线保留在 skills/director-persona-maintainer/；《异星边境》的项目适配、项目人格补充、视觉参照和改稿案例独立位于 创作/导演人格/，不在技能内复制一份会漂移的设定副本。
 

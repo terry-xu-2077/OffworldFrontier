@@ -10,7 +10,7 @@
 
 ## 创作入口
 
-**写剧本、分镜**：从 [编剧 × 导演分镜 Skill](skills/offworld-storyboard-director/SKILL.md) 开始。**将已写分镜转成 AI 视频提示词**：使用 [AI 视频提示词 Skill](skills/offworld-ai-video-prompt/SKILL.md)，默认 **Seedance 2.5 参考生图**：每场戏先准备一条[核心电影静帧](skills/offworld-ai-video-prompt/references/core-scene-keyframe.md)作为整场视觉母图；每个视频批次提示词开头列 **`[全局资产]`**，现有云盘素材直接写文件名，缺失资产附中文生图提示词；只有明确要求 **MiniMax H3** 时切换专用格式。按需查阅 [技能模块索引](skills/README.md)，再核对当前正典专题。用户只需在本项目对话说“帮我写脚本”，不必每次重贴技能来源。仓库 Skill 供对话时读取，不等于 ChatGPT 全局安装。
+**剧作、分镜与 AI 视频制作**：统一从 [AI 视频导演 Skill](skills/offworld-ai-video-director/SKILL.md) 开始，按任务读取剧作、观看价值、空间调度、动作时间轴、摄影、连续性和模型专项模块。导演已写正式分镜时忠实转译，不主动续写；只有明确授权从剧本直出时才提出 AI 拟议制作镜头。默认 **Seedance 2.5 参考生图**，每场戏先准备一条[核心电影静帧](skills/offworld-ai-video-director/references/08_core-scene-keyframe.md)作为整场视觉母图；已有分镜转译的批次以 **[全局资产]** 开头，W 式剧本直出以 **[导演说明]** 开头；只有明确要求 **MiniMax H3** 时切换专用格式。**生图与图片改图**使用[默认生图 Skill](skills/offworld-image-generation/SKILL.md)。按需查阅[技能模块索引](skills/README.md)，再核对当前正典专题。用户只需在本项目对话说“帮我写脚本”，不必每次重贴技能来源。仓库 Skill 供对话时读取，不等于 ChatGPT 全局安装。
 
 
 

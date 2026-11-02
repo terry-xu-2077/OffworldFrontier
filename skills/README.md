@@ -20,19 +20,19 @@
 
 ## AI 视频导演参考模块
 
-- 故事、人物、场景、对白与观看价值：references/01_story-and-viewing-value.md
-- 导演意图、镜头组织与批次规划：references/02_intent-and-batch.md
-- 空间关系、构图与场面调度：references/03_space-and-blocking.md
-- 动作时间轴、物理因果与生成可执行性：references/04_action-timeline.md
-- 摄影机控制与特殊拍摄方式：references/05_camera-control.md
-- 视觉反馈、光影、材质与声音：references/06_visual-and-sound.md
-- 资产引用与连续性：references/07_assets-and-continuity.md
-- 核心电影静帧：references/08_core-scene-keyframe.md
-- 输出格式与模型正文边界：references/09_output-contract.md
-- Seedance 2.5：references/10_seedance-2.5.md
-- MiniMax H3：references/11_minimax-h3.md
-- 质量审查与生成结果复盘：references/12_quality-review.md
-- 方法来源与案例：references/13_reference-methods.md
+- [故事、人物、场景、对白与观看价值](offworld-ai-video-director/references/01_story-and-viewing-value.md)
+- [导演意图、镜头组织与批次规划](offworld-ai-video-director/references/02_intent-and-batch.md)
+- [空间关系、构图与场面调度](offworld-ai-video-director/references/03_space-and-blocking.md)
+- [动作时间轴、物理因果与生成可执行性](offworld-ai-video-director/references/04_action-timeline.md)
+- [摄影机控制与特殊拍摄方式](offworld-ai-video-director/references/05_camera-control.md)
+- [视觉反馈、光影、材质与声音](offworld-ai-video-director/references/06_visual-and-sound.md)
+- [资产引用与连续性](offworld-ai-video-director/references/07_assets-and-continuity.md)
+- [核心电影静帧](offworld-ai-video-director/references/08_core-scene-keyframe.md)
+- [输出格式与模型正文边界](offworld-ai-video-director/references/09_output-contract.md)
+- [Seedance 2.5](offworld-ai-video-director/references/10_seedance-2.5.md)
+- [MiniMax H3](offworld-ai-video-director/references/11_minimax-h3.md)
+- [质量审查与生成结果复盘](offworld-ai-video-director/references/12_quality-review.md)
+- [方法来源与案例](offworld-ai-video-director/references/13_reference-methods.md)
 
 同时遵循仓库根目录 AGENTS.md、创作/创作方向.md，按需核对 1–3 份权威正典专题。Terry 的个人基线保留在 skills/director-persona-maintainer/；《异星边境》的项目适配、项目人格补充、视觉参照和改稿案例独立位于 创作/导演人格/，不在技能内复制一份会漂移的设定副本。
 

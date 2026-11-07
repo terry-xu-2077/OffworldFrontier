@@ -3,7 +3,7 @@
 
 Run from the repository root:
   python scripts/check_video_batches.py
-  python scripts/check_video_batches.py "创作/视频提示词/第一季/01_异星拾荒_Seedance2.5.md"
+  python scripts/check_video_batches.py "创作/视频提示词/第一季/01_异星拾荒_分镜提示词.md"
   python scripts/check_video_batches.py --format html --output report.html
 
 This checks explicit production-document contracts, not creative quality or shot style.
@@ -22,6 +22,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SCAN_DIR = ROOT / "创作" / "视频提示词"
 
 BATCH_RE = re.compile(r"^\s{0,3}#{1,6}\s*\[?批次\s*0*(\d+)\]?(.*)$")
+BATCH_TITLE_RE = re.compile(r"^批次0*(\d+)_([^_].*)_\((\d+(?:\.\d+)?)秒\)$")
 BRACKET_BATCH_RE = re.compile(r"^\s*\[批次\s*0*(\d+)\]\s*$")
 SECTION_RE = re.compile(r"^\s*\[([^\]]+)\]\s*$")
 FENCE_RE = re.compile(r"^\s*(\x60{3,}|~{3,})")
@@ -32,7 +33,7 @@ SHOT_RE = re.compile(
     r"\[\s*(\d+(?:\.\d+)?)\s*(?:–|—|-|~|～|至)\s*"
     r"(\d+(?:\.\d+)?)\s*s\s*\]"
 )
-DURATION_RE = re.compile(r"建议(?:生成时长)?\s*[:：]?\s*(\d+(?:\.\d+)?)\s*(?:秒|s)", re.I)
+DURATION_RE = re.compile(r"(?:_\((\d+(?:\.\d+)?)秒\)|建议(?:生成时长)?\s*[:：]?\s*(\d+(?:\.\d+)?)\s*(?:秒|s))", re.I)
 ASSET_COLUMNS = {"全局参考", "全局资产"}
 W_COLUMNS = ("导演说明", "全局参考", "连续性状态", "视觉基调", "色彩光影", "分镜脚本")
 SHOT_FIELDS = {
@@ -138,7 +139,9 @@ def sections(batch, name):
 
 def expected_duration(title):
     match = DURATION_RE.search(title)
-    return float(match.group(1)) if match else None
+    if not match:
+        return None
+    return float(match.group(1) or match.group(2))
 
 
 def validate_assets(masked, batch, file, issues):
@@ -240,10 +243,15 @@ def validate_shots(lines, section, batch, file, issues):
                     add(issues, "warning", "missing-hard-break", file, i,
                         f"镜头{shot_id} 的“{field}”行末尾缺少 Markdown 硬换行的两个空格。", label)
 
+    title_text = f"批次{batch.number}{batch.title}"
+    new_title = BATCH_TITLE_RE.fullmatch(title_text)
     target = expected_duration(batch.title)
+    if new_title and target is not None and not 7 <= target <= 15:
+        add(issues, "error", "batch-duration-range", file, batch.start,
+            f"新格式批次标题时长应在 7–15 秒内，当前为 {target:g}s。", label)
     if target is not None and abs(shots[-1][3] - target) > tolerance:
         add(issues, "error", "batch-duration-mismatch", file, shots[-1][0],
-            f"批次标题建议时长为 {target:g}s，但分镜时码结束于 {shots[-1][3]:g}s；请同步标题或时码。", label)
+            f"批次标题时长为 {target:g}s，但分镜时码结束于 {shots[-1][3]:g}s；请同步标题或时码。", label)
 
 
 def validate_h3(lines, batch, file, issues):

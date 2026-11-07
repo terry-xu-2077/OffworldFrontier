@@ -1,102 +1,305 @@
 # 《异星边境》Google Drive 视觉资产索引
 
-> 更新日期：2026-10-22  
-> 用途：为剧本、导演分镜、生图提示词和镜头连续性检查提供可直接打开的视觉参考图。  
-> 本索引记录视觉参考原图与用途。对图片能直接证明的可见外观（颜色、轮廓、服装、配件、材质、比例与标识图形），以当前资产图为视觉定稿；若文字设定与图像直接冲突，应修正文档中的视觉描述。可见的轮子、铰链、关节和接口等结构可用于校正最直接的物理用途，但不据此推导隐藏能力或性能参数。用户最新明确决定始终优先。图片中的自动生成文字、型号或公司标签不自动成为正典；涉及剧情因果、技术规则、生态行为或其他无法由画面直接证明的事实冲突，不凭图擅改，应标记待确认。
+> **更新日期：** 2026-11-08  
+> **当前资产：** 47 张图片，按 Google Drive 根目录递归清点。  
+> **用途：** 为剧本、导演分镜、AI 视频提示词、生图提示词和镜头连续性检查提供可直接使用的视觉资产说明。  
+> **使用原则：** 本索引中的每条视觉描述都依据本次实际打开的当前图片整理。正常写分镜时，直接阅读本索引即可，不必为了确认同一张图片反复打开原图。只有图片被替换/更新、描述不足以回答当前镜头的细节、出现视觉冲突或需要确认未记录的特殊结构时，才重新打开原图并同步修订索引。
 
-## 资产库入口
+## 一、资产库入口与目录
 
-- [Google Drive 资产库根目录（检索起点）](https://drive.google.com/drive/folders/1BYxT36wsuk6xPgZ-Y48q_YiAn6OVeKM6)
-- [人物](https://drive.google.com/drive/folders/1b2IqVZAWjOz_p1RghpmPJH4zwBhi79Da)（[角色设定卡](https://drive.google.com/drive/folders/1Ee20JwOz44i5q-7srLE0YYcpo6TK9m0J) / [角色头像](https://drive.google.com/drive/folders/1mjk-absRlXYM_3i7v2G0mAf8h9Hu2eJ6)）
+- [Google Drive 资产库根目录](https://drive.google.com/drive/folders/1BYxT36wsuk6xPgZ-Y48q_YiAn6OVeKM6)
+- [人物](https://drive.google.com/drive/folders/1b2IqVZAWjOz_p1RghpmPJH4zwBhi79Da)
+  - [角色设定卡](https://drive.google.com/drive/folders/1Ee20JwOz44i5q-7srLE0YYcpo6TK9m0J)
+  - [角色头像](https://drive.google.com/drive/folders/1mjk-absRlXYM_3i7v2G0mAf8h9Hu2eJ6)
 - [载具](https://drive.google.com/drive/folders/1OMvWFXMIgbJbBK3Y_5Wy0DQlAj_gJlla)
 - [道具](https://drive.google.com/drive/folders/1JCYlcdWW93adjVh7iw53SWv0jooQYu7m)
 - [生物](https://drive.google.com/drive/folders/1dYnd1Oz2mrm4ILqQOcK35jEJcYsu_o_i)
 - [环境](https://drive.google.com/drive/folders/1OEIUanE6A8LrR1Q_cqGew729J458-XKV)
+- [设施](https://drive.google.com/drive/folders/1S8XH97Cl3OrclqisX72cixUWMlqyv3pf)
 - [各公司 LOGO](https://drive.google.com/drive/folders/1zvbNEro3r1Iyb69yiEcGdVSzWRaDnKRj)
 
-当前已从资产库根目录逐层清点出 **41 张图像资产**，与各子文件夹清单一致。检索时以本页顶部的资产库根目录为唯一入口；如果在某个子文件夹没找到目标图片，必须继续检查其他子文件夹后再判断缺失。
+| 分类 | 图片数量 |
+|---|---:|
+| 人物／角色设定卡 | 9 |
+| 人物／角色头像 | 9 |
+| 载具 | 3 |
+| 道具 | 6 |
+| 生物 | 4 |
+| 环境 | 9 |
+| 设施 | 1 |
+| 各公司 LOGO | 6 |
+| **合计** | **47** |
 
-## 人物｜角色设定卡（9 张）
+本索引只把当前根目录递归检索到的图片登记为现行资产。旧版索引中曾出现、但本次未在当前根目录找到的图片，不继续作为当前资产引用；这不代表它们已被删除，只表示它们不属于本次核验到的现行目录清单。
 
-| 资产 | 参考用途 |
-|---|---|
-| [00_特瑞_Terry.jpg](https://drive.google.com/file/d/1VwYvZB4WYyFK1kLYkUXB8LC4pqzsyPJt/view?usp=drivesdk) | 特瑞的脸部、全身服装及多角度造型参考。视觉定稿为沙棕／浅赭色旧兜帽披覆外层、深灰工装内层与颈胸处护目镜／呼吸面罩组合；相关文字设定已按此修正 |
-| [01_莺_Nina.jpg](https://drive.google.com/file/d/1Kk4cxxlLjioNOQqMv-RtfqoOB39cpgmL/view?usp=drivesdk) | 莺的角色造型参考 |
-| [02_徐世嵘_Ronan_Xu.jpg](https://drive.google.com/file/d/124Gc7fUAObTHoaumwdXL_8BJU44pPLIg/view?usp=drivesdk) | 徐世嵘的角色造型参考 |
-| [03_维克托_Viktor.jpg](https://drive.google.com/file/d/1uuzj4cl2oEhavT5P873bphO5_Xh9cx0A/view?usp=drivesdk) | 维克托的角色造型参考 |
-| [04_马克_Mark.jpg](https://drive.google.com/file/d/1FYaGATouHbgbRRz9hrw4o-GGD5CDY1Wu/view?usp=drivesdk) | 马克的角色造型参考 |
-| [05_杰西卡_Jessica.jpg](https://drive.google.com/file/d/1wVkjSYOJU6lehR3M_o9R30yZSVeSr74H/view?usp=drivesdk) | 杰西卡的角色造型参考 |
-| [06_凯恩_Kane.jpeg](https://drive.google.com/file/d/1fPZftqteU_xOqqnb7Nupa3WURx6P0og7/view?usp=drivesdk) | 凯恩的角色造型参考 |
-| [07_Mi-17_小七（完好状态）.jpg](https://drive.google.com/file/d/1hX7MJxzGybWIGdHWLlv2yF1oKwKWrkNi/view?usp=drivesdk) | 小七过去完好状态：历史上曾具备移动能力；不代表当前状态仍可移动 |
-| [07_Mi-17_小七（机甲状态）.jpeg](https://drive.google.com/file/d/15BtPSs4RD_mX8X7bQQYGUhvSadkcsfp2/view?usp=drivesdk) | 小七与独立全尺寸工业机甲底盘的组合概念图；仅作视觉参考，是否纳入剧情待定 |
+## 二、人物｜角色设定卡（9 张）
 
-## 人物｜角色头像（8 张）
+角色设定卡主要用于全身造型、服装层次、体态比例、装备位置和多角度连续性。角色头像另见下一节，适合近景身份识别。
 
-| 资产 | 参考用途 |
-|---|---|
-| [00_特瑞_Terry.png](https://drive.google.com/file/d/14rDW2Hp6KXo584yfp6r87gi4wMgJ6gMH/view?usp=drivesdk) | 特瑞面部识别与近景连续性 |
-| [01_莺_Nina.png](https://drive.google.com/file/d/1CEgnvP__WMP_eRcMn40GHCEPy2Xeoa_M/view?usp=drivesdk) | 莺面部识别与近景连续性 |
-| [02_徐世嵘_Ronan_Xu.png](https://drive.google.com/file/d/1-O5Ll7nfTuQNa5MXsJaz5OfwlEVowRMI/view?usp=drivesdk) | 徐世嵘面部识别与近景连续性 |
-| [03_维克托_Viktor.png](https://drive.google.com/file/d/10gVlXK7eFHbV0q7qA5sW2hpAjscrkh9Z/view?usp=drivesdk) | 维克托面部识别与近景连续性 |
-| [04_马克_Mark.png](https://drive.google.com/file/d/1Oz1apY92hpig3ZBPiLZCIo0f37up0MwG/view?usp=drivesdk) | 马克面部识别与近景连续性 |
-| [05_杰西卡_Jessica.png](https://drive.google.com/file/d/1z-u6FjO6WpkRl2gR1Nn1ER1wOmetCOQu/view?usp=drivesdk) | 杰西卡面部识别与近景连续性 |
-| [06_凯恩_Kane.png](https://drive.google.com/file/d/1ACwHlj23xFe-QEB2wZZ2kKHR2Ov9uKZP/view?usp=drivesdk) | 凯恩面部识别与近景连续性 |
-| [07_Mi-17_小七_（残机状态）.jpeg](https://drive.google.com/file/d/1QYlMZaT3eUgTktfafjjDc4K9yVbS2y9x/view?usp=drivesdk) | 当前剧情状态：只剩头部组件，没有完整机身或单轮驱动，无法自主移动 |
+### 1. [00_特瑞_Terry.jpg](https://drive.google.com/file/d/1RsiGZ4cH6oXgnWQPA52KGYXF9JpubTqA/view?usp=drivesdk) — Picture 别名：特瑞
 
-## 载具（3 张）
+- **图片描述：** 横向角色设定卡，左侧为特瑞面部近景，右侧提供全身正面、侧面和背面视图。浅金棕色蓬乱短发；沙棕／浅赭色旧兜帽披覆外层，边缘有不规则磨损；内层为深灰色多层工装，带承重带、功能口袋和腿部装备，整体是轻便、耐磨的荒原拾荒者装束。
+- **用途：** 特瑞的面容、发型、全身比例、披覆轮廓、服装材质与前后结构。驾驶、户外行动时可据此保持披覆和工装的视觉连续性。
 
-| 资产 | 参考用途 |
-|---|---|
-| [蚂蚱载具.jpg](https://drive.google.com/file/d/149UNHTFphcfj5PaeFWP4YPdZisWDn4S0/view?usp=drivesdk) | 866 的展开/收纳状态、机械腿、车轮、折叠翼、驾驶舱及多角度结构 |
-| [旧公司运输舰.jpg](https://drive.google.com/file/d/1T5xrFtr0SGB-RRu5Bnc3KdN-dCieQ53f/view?usp=drivesdk) | 旧公司运输舰外形与运输载具参考 |
-| [游商飞船-满载.jpg](https://drive.google.com/file/d/1bhM2lnXgsejV-NIBfl0JKnOexttGA4zs/view?usp=drivesdk) | 满载游商货船的宽体船身、侧面与上方多层货柜、黄黑警戒条纹、厚重着陆支腿和尾部多组推进喷口 |
+### 2. [01_莺_Nina.jpg](https://drive.google.com/file/d/1Kk4cxxlLjioNOQqMv-RtfqoOB39cpgmL/view?usp=drivesdk) — Picture 别名：莺
 
-## 道具（6 张）
+- **图片描述：** 横向角色设定卡，左侧为面部近景，右侧为正面、侧面和背面全身视图。黑色齐下颌短波波头与轻薄刘海；深烟蓝／黑灰色贴身功能服，带青绿色细节滚边、胸腹结构层和腿部绑带／工具位，整体线条利落、轻量、偏生态研究与现场作业用途。
+- **用途：** 莺的面容、发型、全身服装、色彩和功能装备位置。服装以这张设定卡为主要视觉依据，不要擅自改成白大褂、护士服或现代医疗制服。
 
-| 资产 | 参考用途 |
-|---|---|
-| [生物电池.jpeg](https://drive.google.com/file/d/16jPVy-OumMIRMlAOc09_e-j6QhYZttwt/view?usp=drivesdk) | 单体生物电池外壳、观察窗、提手、接口和维护结构 |
-| [生物电池阵列1.jpeg](https://drive.google.com/file/d/1cY0URGIoLNlZ8EinoT0HmSj1kPRjnnSa/view?usp=drivesdk) | 生物电池阵列的排列和连接方式 |
-| [生物电池阵列2.jpeg](https://drive.google.com/file/d/1Qrl9i4p5Qvbaj7A-5tMBjPN0h5vAtnxd/view?usp=drivesdk) | 生物电池阵列的另一种布局参考 |
-| [高负载充能接头.jpg](https://drive.google.com/file/d/18Jsi2T76cOcVBlvyS9kK9pwzU4eJPUgx/view?usp=drivesdk) | 高负载连接器的接口形态与机械细节 |
-| [1元_5元_10元.jpeg](https://drive.google.com/file/d/1ki-fP3QglPxYy0CJiBRULobcCUAA8rqi/view?usp=drivesdk) | 实体硬币面额、尺寸与材质参考 |
-| [硬币散在桌面.jpeg](https://drive.google.com/file/d/11xozlL29SKlD0lICthehBtNGRWC1bFyJ/view?usp=drivesdk) | 硬币在桌面上的散布、尺度与场景摆放参考 |
+### 3. [02_徐世嵘_Ronan_Xu.jpg](https://drive.google.com/file/d/124Gc7fUAObTHoaumwdXL_8BJU44pPLIg/view?usp=drivesdk) — Picture 别名：徐世嵘
 
-## 生物（4 张）
+- **图片描述：** 横向角色设定卡，左侧为面部近景，右侧提供正面、侧面和背面全身视图。黑色短发，成熟男性面容；穿深炭灰／黑色长款外套，内层为多层深灰工装与护具，胸腹有分区结构，整体厚实、克制，带有长期在边境环境中工作的实用感。
+- **用途：** 徐世嵘的面容、发型、长外套轮廓、深色层次和全身比例。近景面部以头像图补充。
 
-| 资产 | 参考用途 |
-|---|---|
-| [地下虫群-4种变体.jpg](https://drive.google.com/file/d/1nsbd73M2sQhuCCnZh1wphX-M1IdaHLC0/view?usp=drivesdk) | 2026-10-27 更新后的正式四型资产：护卫（大钳、无长角）、采集（透明腹囊）、挖掘（厚重楔形前肢）、侦查（修长后伸甲壳）；共同具有浅灰紫色岩质叠甲和局部冰蓝纹理。下次读图前须确认目录中的当前同名文件 ID |
-| [地下深处-虫群母巢.jpg](https://drive.google.com/file/d/1gOjlEdJeQi1S8uzv2bD71ksi8w8V9oBw/view?usp=drivesdk) | 深层母巢空间、石隙生命体的大型母巢共生形态、多囊状结构与虫群活动关系 |
-| [绿洲-无足爬行生物.jpg](https://drive.google.com/file/d/1tavuHE-AuyCPsPsqPKi55NyF3xgR2eZ7/view?usp=drivesdk) | 绿洲区域无足爬行生物参考 |
-| [高空-浮空生物.jpg](https://drive.google.com/file/d/1CpNHAFemrA5UGHCuE5Rxkjn_KjSQzlZt/view?usp=drivesdk) | 高空浮空生物的轮廓、漂浮形态与尺度参考 |
+### 4. [03_维克托_Viktor.jpg](https://drive.google.com/file/d/1uuzj4cl2oEhavT5P873bphO5_Xh9cx0A/view?usp=drivesdk) — Picture 别名：维克托
 
-## 环境（5 张）
+- **图片描述：** 横向角色设定卡，左侧为年长男性面部近景，右侧为正面、侧面和背面全身视图。灰白短发、浓密灰白胡须；穿旧灰色工程工作服和承重装备，背部有明显的大型机械／工具背架，外露管线、挂点和厚实结构突出维修工程师身份。
+- **用途：** 维克托的年龄感、面部、胡须、工程服、背架和工具承载结构。不要把背架误写成普通轻便背包。
 
-| 资产 | 参考用途 |
-|---|---|
-| [开场遗迹.jpg](https://drive.google.com/file/d/1DgWhCRtSTucFKLH9ElkpGY3FbxDbigid/view?usp=drivesdk) | 开场遗迹、坠毁运输舰、荒星地貌、远景行星与光色关系 |
-| [荒星地貌.jpg](https://drive.google.com/file/d/1sTt-4l5u_EX0H41YPHA9Iiehekfq_7fh/view?usp=drivesdk) | 荒星地表材质、地形和大气色彩 |
-| [避难所-俯瞰.jpg](https://drive.google.com/file/d/1UOn4DkbIApZQeBq5EdLLJDGWlcXQ8W7L/view?usp=drivesdk) | 避难所整体布局与空间关系 |
-| [避难所_胶囊员工生活仓改造居住区.jpg](https://drive.google.com/file/d/1FTdwnncj1kfYZ3GPyVvzk-vCDvClayUf/view?usp=drivesdk) | 胶囊员工生活仓改造后的居住区内景 |
-| [避难所_公共厨房与食堂舱.jpg](https://drive.google.com/file/d/1OoniVrmpEsIcAWqZ7YroEurLMjNAhUAD/view?usp=drivesdk) | 公共厨房、食堂舱与生活空间参考 |
+### 5. [04_马克_Mark.jpg](https://drive.google.com/file/d/1FYaGATouHbgbRRz9hrw4o-GGD5CDY1Wu/view?usp=drivesdk) — Picture 别名：马克
 
-## 各公司 LOGO（6 张）
+- **图片描述：** 横向角色设定卡，左侧为年长男性近景，右侧提供正面、侧面和背面全身视图。头顶头发稀疏、灰白发色，佩戴圆形眼镜，留浓密白色八字胡；穿浅卡其工作衬衣、棕色多口袋背心、蓝绿色工作裤和厚实工作靴，腰部有工具／库存工作装备。
+- **用途：** 马克的面容、眼镜、胡须、工作背心、裤装和体态。与维克托区分：马克以眼镜、白胡子、卡其衬衣和棕色背心为主要识别点。
 
-| 资产 | 参考用途 |
-|---|---|
-| [1-ORC.png](https://drive.google.com/file/d/1_qVAfV8Q-anu2EKeD2AQcnR4-g1K785J/view?usp=drivesdk) | 外环联合企业 ORC |
-| [2-AD.png](https://drive.google.com/file/d/1CVA8KF4sGNZI35MQH4hwYRXQOt20cYzI/view?usp=drivesdk) | 以太动力学 AD |
-| [3-UNI.png](https://drive.google.com/file/d/1ScPGZrJriOeDZ9RMML-Hdyy3Ts4sHYSc/view?usp=drivesdk) | 寰宇重工 UNI / UI |
-| [4-VTX.png](https://drive.google.com/file/d/1MjHfjIozIszH8bmj1G-kPKUmP5LwMw3n/view?usp=drivesdk) | 维塔克斯 VTX |
-| [5-SBD.png](https://drive.google.com/file/d/1aTVzGyIp6y_NthOw5TOh6xPrcTZsyubp/view?usp=drivesdk) | 星垒防卫 SBD |
-| [6-TRG.png](https://drive.google.com/file/d/1lsBK5SnWrFr7ZVFU0sl4BnEwEnO8D33c/view?usp=drivesdk) | 环映传媒集团 TRG 标识：深炭灰复合字形、橙／绿／蓝三条色带与浅灰蓝 R 形字；不补造图中未明确的字母结构 |
+### 6. [05_杰西卡_Jessica.jpg](https://drive.google.com/file/d/1wVkjSYOJU6lehR3M_o9R30yZSVeSr74H/view?usp=drivesdk) — Picture 别名：杰西卡
 
-## 读取与使用说明
+- **图片描述：** 横向角色设定卡，左侧为女性面部近景，右侧提供正面、侧面、背面和服装细节。棕色短发侧分，佩戴通讯耳麦；服装以深酒红／紫红色贴身高领外套为主，带黑色功能内层、腰部装备和深色长靴，整体有通讯与现场协调人员的利落感。
+- **用途：** 杰西卡的面容、短发、通讯耳麦、酒红色服装轮廓和全身比例。若使用外星种族版本，需结合该角色后续已确认的外星化视觉定稿，不要把这张基础卡中未呈现的种族特征自行补成正典。
 
-- 当前索引登记 41 张图像资产；小七残机状态图已在「人物／角色头像」分类下补齐 Drive 直链。资产库根目录为本页顶部的唯一检索起点，找不到单张图片时应递归检查根目录下的全部子文件夹，而不是只检查其中一个分类。
-- 图片中的临时型号、自动生成文字、公司名或英文概念标签仅作为图像内容；只有经文字设定确认后才作为正典术语。
-- 以后为某集写分镜时，先根据镜头涉及的人物、场景、载具或道具，从本索引打开对应图片，再结合《美术资产库清单》和具体人物/世界设定。
-- 角色头像用于面部连续性；角色设定卡用于全身服装、比例和多角度造型；环境图用于空间布局、材质与光色；道具/载具/生物图用于结构与轮廓。不要把不同类别的图互相当成唯一依据。
-- 若文件移动、重命名或替换，请同步更新本索引。
-- Google Drive 图片是外部视觉参考，不需要复制到 GitHub；仓库保留索引和正式设定即可。
+### 7. [06_凯恩_Kane.jpeg](https://drive.google.com/file/d/1fPZftqteU_xOqqnb7Nupa3WURx6P0og7/view?usp=drivesdk) — Picture 别名：凯恩
+
+- **图片描述：** 横向角色设定卡，左侧为男性面部近景，右侧提供正面、侧面和背面全身视图。深肤色、短编发；穿灰紫／银灰色重型防护装甲，肩部、胸腹和大腿有明显分区护板，颈部有较高的防护结构，整体比其他角色更厚重、偏安保与武装行动。
+- **用途：** 凯恩的面容、发型、装甲色彩、护板比例和全身轮廓。武装镜头以这张图作为服装结构依据。
+
+### 8. [07_Mi-17_小七（完好状态）.jpg](https://drive.google.com/file/d/1hX7MJxzGybWIGdHWLlv2yF1oKwKWrkNi/view?usp=drivesdk) — Picture 别名：小七_完好状态
+
+- **图片描述：** 小七完整形态的产品／角色设定板。主体为米白色圆润机器人，头部有猫耳状外壳，正面是大面积黑色显示屏，屏幕以像素化眼睛呈现表情；外壳有彩色条带、磨损、旧贴标和圆角分段结构，旁边展示较小的全身正面、侧面和背面视图。
+- **用途与边界：** 只说明小七过去的完整外观和历史上具备移动能力；当前剧情中的小七仍是残机，不能把这张图当成当前可自主行动状态。
+
+### 9. [07_Mi-17_小七_（机甲状态）.jpeg](https://drive.google.com/file/d/15BtPSs4RD_mX8X7bQQYGUhvSadkcsfp2/view?usp=drivesdk) — Picture 别名：小七_机甲概念
+
+- **图片描述：** 概念设定板将小七的猫耳显示屏头部与高大的旧工业机甲身体组合，左侧有头部与胸部局部近景，右侧展示多种工业机甲身体造型；机甲体量明显大于小七原本的完整机器人形态，具有厚重肩甲、外露机械关节和旧工业设备感。
+- **用途与边界：** 这是视觉灵感／组合概念图，不代表已经进入正典剧情，也不代表小七当前拥有该身体或已经能够行动。正式采用前不得当成已确认设定。
+
+## 三、人物｜角色头像（9 张）
+
+头像用于面部身份和近景连续性，不替代角色设定卡中的全身服装与装备信息。
+
+### 1. [00_特瑞_Terry.png](https://drive.google.com/file/d/14rDW2Hp6KXo584yfp6r87gi4wMgJ6gMH/view?usp=drivesdk) — Picture 别名：特瑞_头像
+
+- **图片描述：** 白底正面头肩肖像；浅金棕色蓬乱短发，年轻男性面容，眉眼清晰，皮肤保留自然细节。
+- **用途：** 特瑞近景、侧脸或面部身份保持；服装与全身造型仍以角色设定卡为准。
+
+### 2. [01_莺_Nina.png](https://drive.google.com/file/d/1CEgnvP__WMP_eRcMn40GHCEPy2Xeoa_M/view?usp=drivesdk) — Picture 别名：莺_头像
+
+- **图片描述：** 白底正面头肩肖像；黑色齐下颌短波波头、轻薄刘海，五官清秀，整体气质安静、专注。
+- **用途：** 莺的面部身份与近景连续性；发型以该头像为准，全身服装以角色设定卡为准。
+
+### 3. [02_徐世嵘_Ronan_Xu.png](https://drive.google.com/file/d/1-O5Ll7nfTuQNa5MXsJaz5OfwlEVowRMI/view?usp=drivesdk) — Picture 别名：徐世嵘_头像
+
+- **图片描述：** 白底正面头肩肖像；黑色短发，成熟男性面容，轮廓硬朗，面部有明显的岁月与风霜质感。
+- **用途：** 徐世嵘近景身份识别和面部连续性；服装以角色设定卡为准。
+
+### 4. [03_维克托_Viktor.png](https://drive.google.com/file/d/10gVlXK7eFHbV0q7qA5sW2hpAjscrkh9Z/view?usp=drivesdk) — Picture 别名：维克托_头像
+
+- **图片描述：** 白底正面头肩肖像；年长男性，灰白短发、浓密灰白胡须，眉眼深刻，面容严肃。
+- **用途：** 维克托近景身份识别；注意保留年龄、胡须和灰白发色。
+
+### 5. [04_马克_Mark.png](https://drive.google.com/file/d/1Oz1apY92hpig3ZBPiLZCIo0f37up0MwG/view?usp=drivesdk) — Picture 别名：马克_头像
+
+- **图片描述：** 白底正面头肩肖像；年长男性，头顶稀疏灰白头发，圆形眼镜和浓密白色八字胡是最醒目的面部识别特征。
+- **用途：** 马克近景身份识别；不要与维克托的无眼镜灰白胡须形象混淆。
+
+### 6. [05_杰西卡_Jessica.png](https://drive.google.com/file/d/1z-u6FjO6WpkRl2gR1Nn1ER1wOmetCOQu/view?usp=drivesdk) — Picture 别名：杰西卡_头像
+
+- **图片描述：** 白底头肩肖像；棕色短发侧分，面部轮廓清晰，佩戴小型耳饰，穿深色皮质外套。
+- **用途：** 杰西卡近景身份识别；通讯耳麦和酒红色服装细节以角色设定卡为准。
+
+### 7. [05_杰西卡_Jessica.png（副本）](https://drive.google.com/file/d/11yLivdIeUK_Pu2iejDSi9WhWi6FqsOgK/view?usp=drivesdk) — Picture 别名：杰西卡_头像副本
+
+- **图片描述：** 与上一条杰西卡头像文件逐字节一致，画面、尺寸和图像内容完全相同，是同一头像的副本。
+- **用途与边界：** 保留该文件的独立 Drive 链接以完成目录清点；提示词绑定时优先使用“杰西卡_头像”，不要把副本当成另一套造型。
+
+### 8. [06_凯恩_Kane.png](https://drive.google.com/file/d/1ACwHlj23xFe-QEB2wZZ2kKHR2Ov9uKZP/view?usp=drivesdk) — Picture 别名：凯恩_头像
+
+- **图片描述：** 白底正面头肩肖像；深肤色男性，短编发，年轻面容，带自然笑容。
+- **用途：** 凯恩面部身份与近景连续性；武装服装以角色设定卡为准。
+
+### 9. [07_Mi-17_小七_（残机状态）.jpeg](https://drive.google.com/file/d/1QYlMZaT3eUgTktfafjjDc4K9yVbS2y9x/view?usp=drivesdk) — Picture 别名：小七_残机
+
+- **图片描述：** 白底单体道具肖像；小七当前仅剩米白色猫耳状头部组件，正面为黑色显示屏，屏幕呈现像素化眼睛，顶部有彩色条带和明显使用磨损；没有完整机身、手脚或可移动底盘。
+- **用途与边界：** 这是当前剧情状态的主要视觉依据。小七不能自主移动；不能拿“完好状态”或“机甲概念”图覆盖这一状态。
+
+## 四、载具（3 张）
+
+### 1. [蚂蚱载具.jpg](https://drive.google.com/file/d/1y8KUFhgTl5zc_feyo_Cf-dcVFkNqFR0G/view?usp=drivesdk) — Picture 别名：866
+
+- **图片描述：** 多视角载具设定板，主体为单人驾驶的沙色／灰米色轻型荒原越野载具，四轮与多组长关节机械腿／支撑结构结合；车头低、后部机械结构更高，侧后方有灰紫色折叠翼膜，图片同时展示翼膜展开与收纳状态、正侧后视图和驾驶舱内部。
+- **用途：** 866 的单座驾驶位、四轮、机械腿、车身比例、折叠翼膜、外壳颜色和结构连续性。驾驶位只容纳一名驾驶员；动作镜头可根据需要表现机械腿压缩、伸展和翼膜状态，但不能把参考图当成每一镜的固定构图。
+
+### 2. [游商飞船-满载.jpg](https://drive.google.com/file/d/1bhM2lnXgsejV-NIBfl0JKnOexttGA4zs/view?usp=drivesdk) — Picture 别名：游商飞船
+
+- **图片描述：** 多视角大型宽体货运飞船设定板。船体低矮、宽厚，灰白旧合金主壳体上堆叠多层模块化货柜，外壳有加强筋、锁扣、维护结构和黄黑警戒条纹；底部为厚重支撑／着陆结构，尾部有成组大型推进喷口，画面提供侧面、正面、背面和上方结构视图。
+- **用途：** 游商货船的满载体量、货柜堆叠、工业运输属性和推进结构。与 ORC 旧公司运输舰区分，不把它改成流线型战斗机。
+
+### 3. [旧公司运输舰.jpg](https://drive.google.com/file/d/1T5xrFtr0SGB-RRu5Bnc3KdN-dCieQ53f/view?usp=drivesdk) — Picture 别名：ORC运输舰
+
+- **图片描述：** 多视角细长型旧公司货运飞船，灰白机身配浅蓝识别条与 ORC 标识；中段为多组外置货运舱模块，船体结构厚重、分段清晰，尾部集中排列多组圆形推进喷口，底部可见支撑／着陆结构。
+- **用途：** ORC 运输舰的整体轮廓、货运舱分布、机身色彩和尾部推进结构。不要与游商飞船的宽体、多层满载货柜外形混淆。
+
+## 五、道具（6 张）
+
+### 1. [特瑞的护目镜.jpg](https://drive.google.com/file/d/1jHjkGgFjJEEEsASkePaVzQCJ5etJiQMR/view?usp=drivesdk) — Picture 别名：特瑞护目镜
+
+- **图片描述：** 白底单体道具图；浅沙棕／灰米色厚边框，宽幅双镜片一体式结构，镜片为深琥珀棕色，中央鼻梁处向内收束，侧边连接固定带。
+- **用途：** 特瑞护目镜的镜框轮廓、镜片色彩和整体尺寸感。用于颈胸佩戴或手持近景时保持同一外观。
+
+### 2. [生物电池组.jpg](https://drive.google.com/file/d/1zlab_Z-THrGcd2EZnqLJSKaaVS7g7Jh2/view?usp=drivesdk) — Picture 别名：生物电池组
+
+- **图片描述：** 白底工业道具图；三个相同的厚重矩形模块并排安装在一体式固定框架内，外壳为浅灰白旧合金，正面各有竖向琥珀色观察窗，侧边可见接口、锁止件、压紧结构和粗壮框架。
+- **用途：** 多个生物电池模块的并列排列、固定方式和整体体量。该图表现的是成组模块，不是单个电池的特写。
+
+### 3. [生物电池.jpg](https://drive.google.com/file/d/1CWRMgM6yN9yXyOHElcQ3pxcxPxkUnIj3/view?usp=drivesdk) — Picture 别名：生物电池
+
+- **图片描述：** 白底单体道具图；一只可手提的厚重矩形浅灰白工业电池，顶部有提把，四周有保护框和机械锁扣，正面中央为圆形琥珀色观察窗，窗内能看到细丝状、分枝状的有机结构和暖黄色微光。
+- **用途：** 单体生物电池的外壳、把手、观察窗和内部活体结构。画面中自动生成的品牌字样或型号不自动成为正典；不要把它画成普通消费电子电池。
+
+### 4. [高负载充能接头.jpg](https://drive.google.com/file/d/18Jsi2T76cOcVBlvyS9kK9pwzU4eJPUgx/view?usp=drivesdk) — Picture 别名：高负载充能接头
+
+- **图片描述：** 深色金属工作台上的工业连接器近景；浅灰白圆柱形金属插头，前端有两根突出的金属触针，主体带螺栓、分段法兰和锁止结构，后方连接粗黑色电缆，外壳有磨损和小型橙色状态窗。
+- **用途：** 高负载接口的触针、法兰、锁止结构、电缆粗细和工业磨损质感。不要做成家用插头或消费电子接口。
+
+### 5. [1元_5元_10元.jpeg](https://drive.google.com/file/d/1ki-fP3QglPxYy0CJiBRULobcCUAA8rqi/view?usp=drivesdk) — Picture 别名：圆子面额
+
+- **图片描述：** 白底正反面硬币设计板，展示 1、5、10 三种面额。硬币为圆形金属币，正面有大号数字和 ORC 字样，背面有外环联合企业图形压印及英文环形字；三种面额分别呈浅银灰、淡灰紫／玫瑰紫和蓝灰紫色，边缘有细密金属齿纹。
+- **用途：** 圆子的面额数字、正反面图案、颜色与实体硬币材质。画面中的小字只作图案参考，不要求生成时逐字复刻。
+
+### 6. [硬币散在桌面.jpeg](https://drive.google.com/file/d/11xozlL29SKlD0lICthehBtNGRWC1bFyJ/view?usp=drivesdk) — Picture 别名：圆子散落
+
+- **图片描述：** 多枚不同面额硬币散落在旧金属桌面上的场景图。可见银灰、紫色、蓝灰和金色硬币，包含不同大小与厚度；中央附近有较醒目的金色大面额硬币，周围硬币有大号数字、企业压印和边缘齿纹。
+- **用途：** 多枚圆子在桌面上的散布状态、尺寸比例、金属质感和场景摆放。若需要特定面额，仍以面额组合图为准。
+
+## 六、生物（4 张）
+
+### 1. [地下虫群采集队.jpg](https://drive.google.com/file/d/1Z8Fhk1n1ER8Dfud-q1Ga-Z11hoCRUfjV/view?usp=drivesdk) — Picture 别名：虫群四型
+
+- **图片描述：** 白底四格生物设定板，分别标注 Scout、Gatherer、Excavator、Guardian 四种形态。四者共享灰白至灰紫色层叠岩质甲壳、分节腹部和多足节肢轮廓，但体态与前肢不同：Scout 身形较轻、足部修长；Gatherer 背甲更厚、前肢更粗壮；Excavator 有明显向前伸出的楔形／铲状结构；Guardian 体型厚重，腹侧可见淡蓝青色发光状组织。
+- **用途与边界：** 这是四种虫群形态的共同视觉对照图，写镜头时应按所需变体选用，不要把四种形态混成同一只虫。图中英文类别标签是图像标注，不自动决定更多生态能力或剧情行为。
+
+### 2. [偷袭者.jpg](https://drive.google.com/file/d/1e7ndWKwN204kUWfd5pavnLF_73yXFjxE/view?usp=drivesdk) — Picture 别名：偷袭者
+
+- **图片描述：** 白底单体生物图；灰紫色节肢外骨骼，头部向前突出，带长触须和口器；背部有半透明紫灰色翼膜，腹部由多节结构组成，四周伸出多条细长、关节分明的节肢，整体呈低伏、敏捷、具有突袭感的轮廓。
+- **用途：** 偷袭者的单体外形、翼膜、长触须、节肢比例和甲壳材质。图片只提供外观参考，不据此擅自确定飞行距离、速度或其他未确认能力。
+
+### 3. [绿洲-无足爬行生物.jpg](https://drive.google.com/file/d/1tavuHE-AuyCPsPsqPKi55NyF3xgR2eZ7/view?usp=drivesdk) — Picture 别名：无足爬行生物概念
+
+- **图片描述：** 四格概念对照板，展示四种无足分节生物方向：盘卷甲壳形、软体覆甲形、几何岩节形，以及底部右侧的菌质／矿化发光形态。此前选定的方向是底部右侧：低伏无足，身体由灰褐与蓝绿色多孔有机节段组成，前端有放射状半透明瓣片和蓝紫色中心结构。
+- **用途与边界：** 正式引用时以已选定的底部右侧菌质／矿化分节形态为准，不把其他三个概念方案混进同一物种；它独立于有足的棘岩爬子。具体俗名、食性和危险等级仍以正式设定为准。
+
+### 4. [高空-浮空生物.jpg](https://drive.google.com/file/d/1CpNHAFemrA5UGHCuE5Rxkjn_KjSQzlZt/view?usp=drivesdk) — Picture 别名：高空浮空生物概念
+
+- **图片描述：** 四格高空浮空生物概念板。左上是半透明分瓣气囊／膜片与垂落细丝组成的水母状轮廓；右上是紧凑椭圆体与虹彩甲片；左下是半透明环状管体与多条盘绕触须；右下是带淡紫晶刺和多个小型感应点的漂浮体。
+- **用途与边界：** 现有浮膜群文字设定与左上轮廓最接近；其余三种形态尚未映射为正典物种。近景应选定一种清晰轮廓，不把概念板上的英文名称直接当作正式分类，也不凭外形推断意识或特殊能力。
+
+## 七、环境（9 张）
+
+环境图用于提炼地形、空间关系、建筑布局、材质和综合色。**环境图不自动锁定新镜头的摄影机机位或构图**；需要新机位时，依据下列文字描述重新设计摄影机位置。
+
+### 1. [开场遗迹.jpg](https://drive.google.com/file/d/1NLexR05DQMV2ChGigzk63_DmUpYR7CGI/view?usp=drivesdk) — Picture 别名：开场遗迹
+
+- **图片描述：** 宽幅荒星遗迹环境图。左侧／中景是一座体量巨大的旧公司工业建筑，外墙有 ORC 标识和长期风化痕迹；前景有废弃运输飞船、地面碎石和一辆小型载具作为尺度参照。远处是紫灰荒原、山脊与粉紫天空，环带行星和低角度暖色天光构成背景。
+- **用途：** 旧公司遗迹与荒星地貌的综合色、尺度、材质和大环境气氛。不要把原图机位当作所有遗迹镜头的固定首帧。
+
+### 2. [避难所-俯瞰.jpg](https://drive.google.com/file/d/1EJdf-yj3hKae8u-x4GRt1mEFDfTX_Cbe/view?usp=drivesdk) — Picture 别名：避难所俯瞰
+
+- **图片描述：** 高角度俯瞰的避难所整体布局。基地由外围围墙和内部工业平台围合，中央区域有大型圆形／环形作业空间，内部散布生活模块、设备、道路和连接通道；远处高地上可见独立风塔，基地与荒原山脊相接。
+- **用途：** 避难所整体平面关系、围墙边界、内部设施分区、道路和风塔相对位置。风塔位于基地外侧高地，不要误写成基地内部设施。
+
+### 3. [远景风塔.jpg](https://drive.google.com/file/d/1oWOXRmjPtdPs8Ztv3cHsdyewnhLErc-Z/view?usp=drivesdk) — Picture 别名：远景风塔
+
+- **图片描述：** 粉紫色荒原远景，层叠低矮丘陵延伸到地平线，一条浅色土路从前景蜿蜒通向远处高地；高地上孤立矗立一座大型垂直轴风塔，天空有环带行星，整体为柔和粉紫与灰紫色调。
+- **用途：** 风塔与荒原高地的尺度关系、道路走向、远景地形和天空色彩。适合远景建立镜头，不用于替代风塔本体结构图。
+
+### 4. [遗迹外围的废弃运输飞船.jpg](https://drive.google.com/file/d/1MqyvcE_oN3AHt8a6cdYGhgD0KmfinkvG/view?usp=drivesdk) — Picture 别名：遗迹废弃运输舰
+
+- **图片描述：** 荒原地面上的 ORC 白灰色运输飞船近景。船体侧面有明显撕裂／破损开口，部分舱门和外壳结构向外打开，能看到货舱内部结构；周围是蓝灰岩石、紫灰尘土和稀疏荒原地貌，远景保留粉紫天空。
+- **用途：** 废弃运输舰的外壳破损、货舱开口、船体与荒原的尺度关系。与完整运输舰多视图结合使用时，前者约束破损状态，后者约束基础船型。
+
+### 5. [伞菌峡道.jpg](https://drive.google.com/file/d/1IHDnkgbcFYmnHPfJ94uH0UMTZR2T-7kN/view?usp=drivesdk) — Picture 别名：伞菌峡道
+
+- **图片描述：** 狭窄、蜿蜒的天然峡道，深色风化岩壁从两侧向上耸立，岩缝和坡面生长大型紫灰色伞状菌体，宽大的菌伞相互交错，局部遮蔽天空；远处透出粉紫色天光，地面为粗糙岩土与碎石路面。
+- **用途：** 峡道的狭窄空间、岩壁肌理、大型菌伞尺度、遮蔽关系和粉紫色环境光。原图是空间／材质参考，不自动锁定车辆行驶镜头的机位。
+
+### 6. [荒星地貌.jpg](https://drive.google.com/file/d/1HZP9zvN34pg6oesT8ctSbtYWTqArbrGW/view?usp=drivesdk) — Picture 别名：荒星地貌
+
+- **图片描述：** 宽幅荒星全景，地表由蓝灰、紫灰色风化岩层、碎石坡和低矮起伏丘陵构成，地平线延伸到淡粉紫色薄雾；天空中有明显环带行星，整体空旷、干燥、冷静，植被稀少。
+- **用途：** 荒星地貌基准、岩石颜色、远景层次、空气透视和天空综合色。不要无依据地将画面整体改成明亮蓝天或大面积黄沙。
+
+### 7. [废弃飞船货舱中的ORC遗物.jpg](https://drive.google.com/file/d/1F15LilNTTI-c4Bz72mT_MdNV0TehJuch/view?usp=drivesdk) — Picture 别名：ORC货舱遗物
+
+- **图片描述：** 废弃运输舰内部的狭窄工业货舱／舱道。空间由厚重圆角金属肋骨、旧公司货架和设备舱组成，地面散落硬币与小型遗物；远处有一名人物作为空间尺度参照，冷色光从舱体深处或破损开口透入，近处保持幽暗。
+- **用途：** ORC 货舱内部结构、旧工业材质、遗物摆放、狭窄纵深和冷暗光线。具体人物动作和摄影机位置应按分镜重新设计。
+
+### 8. [避难所_胶囊员工生活仓改造居住区.jpg](https://drive.google.com/file/d/1FTdwnncj1kfYZ3GPyVvzk-vCDvClayUf/view?usp=drivesdk) — Picture 别名：胶囊生活仓居住区
+
+- **图片描述：** 旧胶囊员工生活仓改造后的室内公共居住空间。墙面排列多个圆角舱门／独立舱位，舱体与走廊由旧金属框架连接；公共区域摆有桌椅、生活用品和储物设施，舷窗外能看到荒星环境，照明以温暖的室内灯为主。
+- **用途：** 避难所居住区的胶囊舱门、公共空间、旧船舱改造痕迹、家具尺度和暖色生活光。不要改成现代酒店或洁净实验室。
+
+### 9. [避难所_公共厨房与食堂舱.jpg](https://drive.google.com/file/d/1OoniVrmpEsIcAWqZ7YroEurLMjNAhUAD/view?usp=drivesdk) — Picture 别名：公共厨房食堂
+
+- **图片描述：** 旧飞船舱室改造的公共厨房／食堂。画面包含金属操作台、中央备餐台、储物柜、炊具和餐食，后方有公共用餐区域与人物，圆形舷窗透入外部荒星光线，室内由暖色顶灯照亮。
+- **用途：** 食堂的厨房布局、金属工作台、餐食、座位和温暖的公共生活氛围。群像镜头可参考其生活密度，但不要照搬原图人物位置。
+
+## 八、设施（1 张）
+
+### 1. [风塔_1.png](https://drive.google.com/file/d/12gUohDrVKB6CZ4mReTKmLo3poJJ43W6S/view?usp=drivesdk) — Picture 别名：风塔结构
+
+- **图片描述：** 白底独立设施结构图，展示一座大型垂直轴风力机。中央为粗壮竖直主轴，周围环绕数片高大的弧形／扭转翼面，翼面由横向支撑梁连接；下方是厚重的圆柱形工业塔基，带环形检修平台、外露支撑柱、检修门和短楼梯。整体为风化银灰金属材质，结构高大、工业感强。
+- **用途：** 风塔本体的垂直轴结构、中央主轴、弧形翼面、支撑梁、塔基比例和检修设施。用于确认结构时优先看这张图；远景环境、道路和高地位置则参考“远景风塔”。
+
+## 九、各公司 LOGO（6 张）
+
+公司标识图用于飞船外壳、铭牌、货箱、设备标签、屏幕、封条和旧公司资产识别。图中的细小文字可作为视觉图形参考；没有清晰呈现的字母或公司全称不要自行补造。
+
+### 1. [1-ORC.png](https://drive.google.com/file/d/1_qVAfV8Q-anu2EKeD2AQcnR4-g1K785J/view?usp=drivesdk) — Picture 别名：ORC标识
+
+- **图片描述：** 浅银灰色椭圆轨道环围绕蓝色星体，斜向轨道带穿过外圈，内部有蓝色细轨和节点；右侧为浅蓝／灰蓝色几何字标 ORC。
+- **用途：** 外环联合企业的飞船、资产、档案、封条和消费代币标识。
+
+### 2. [2-AD.png](https://drive.google.com/file/d/1CVA8KF4sGNZI35MQH4hwYRXQOt20cYzI/view?usp=drivesdk) — Picture 别名：AD标识
+
+- **图片描述：** 浅灰齿轮状外圈，内部是深色圆环和珊瑚橙／橙红色三瓣旋转图形，中心留有浅色圆孔；右侧为灰色 AD 字标，A 字母带橙色细节。
+- **用途：** 以太动力学相关的工程设备、地貌改造设施和旧公司铭牌。
+
+### 3. [3-UNI.png](https://drive.google.com/file/d/1ScPGZrJriOeDZ9RMML-Hdyy3Ts4sHYSc/view?usp=drivesdk) — Picture 别名：UNI标识
+
+- **图片描述：** 灰色 U 形工业徽记，内部有橙色与黄色斜向警戒条；右侧为厚块面灰色 UNI 字标，字母 i 的点为橙色方块。
+- **用途：** 寰宇重工的机械设备、矿区设施、标准模块和工业铭牌。
+
+### 4. [4-VTX.png](https://drive.google.com/file/d/1MjHfjIozIszH8bmj1G-kPKUmP5LwMw3n/view?usp=drivesdk) — Picture 别名：VTX标识
+
+- **图片描述：** 灰色开放 V 形支架托住亮青蓝色倒三角；右侧 VTX 字标中 V 为青蓝色，T 为灰色，X 由青蓝与黄绿色斜线交叉组成。
+- **用途：** 维塔克斯公司的生物科技设备、样本箱、实验批号和研究设施标识。
+
+### 5. [5-SBD.png](https://drive.google.com/file/d/1aTVzGyIp6y_NthOw5TOh6xPrcTZsyubp/view?usp=drivesdk) — Picture 别名：SBD标识
+
+- **图片描述：** 红色盾形徽记带深炭灰描边，盾内是粗切角黑灰色 S 形符号；右侧 SBD 字标为浅灰填充和深色粗描边，D 内保留红色块。
+- **用途：** 星垒防卫的安保装备、武器箱、脉冲匣、炮塔识别模块和权限铭牌。
+
+### 6. [6-TRG.png](https://drive.google.com/file/d/1lsBK5SnWrFr7ZVFU0sl4BnEwEnO8D33c/view?usp=drivesdk) — Picture 别名：TRG标识
+
+- **图片描述：** 白底图形标识板；左侧是深色描边的组合字形，内部交织橙、绿、蓝三条粗色带；右侧另有浅灰蓝色的 R 形／字母图形和对应的彩色横线。整体以橙绿蓝为识别色。
+- **用途与边界：** 环映传媒集团的视觉识别参考。图中没有清晰呈现完整、标准的 TRG 三字组合时，不要擅自补画另一套字标。
+
+## 十、索引使用规则
+
+1. **正常写分镜时直接使用本索引。** 根据镜头涉及的人物、载具、场景、生物、道具或公司标识，读取对应条目的视觉描述即可，不需要每次重新打开原图。
+2. **原图链接保留为可追溯来源。** 需要检查未记录的细节、比较不同版本、确认特殊结构或解决视觉冲突时，再点击链接打开图片。
+3. **资产描述只陈述画面可见事实。** 不从外观擅自推导隐藏功能、性能参数、剧情因果、生态能力或人物经历；这些仍以已确认的文字设定为准。
+4. **图片与正典设定冲突时分层处理。** 可见外观（颜色、轮廓、服装、配件、材质、比例和标识图形）以当前正式资产图为视觉定稿；剧情因果、技术规则、生态行为和人物选择不由图片自动改写。
+5. **角色设定卡与头像分工。** 角色设定卡约束全身服装、体态和装备；头像约束面部身份。二者不要互相替代。
+6. **环境图与机位分工。** 环境图优先提供地形、材质、综合色和空间关系，不自动锁定首帧构图或摄影机机位。
+7. **稳定语义别名。** 视频提示词使用本索引中的 Picture 别名，不使用文件名、扩展名、Drive ID 或路径。同一张实际图片跨批次必须使用完全相同的别名；不同图片不得共用别名。
+8. **资产更新时维护索引。** 文件新增、替换、重命名、移动或删除后，重新递归检查根目录，更新文件链接、数量、描述和别名映射。图片内容被替换时必须重新查看新图，不能沿用旧描述。
+9. **Google Drive 是原图存储位置。** GitHub 只保存索引与文字描述，不重复提交原始图片。
+

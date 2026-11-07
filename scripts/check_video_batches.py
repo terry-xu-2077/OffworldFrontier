@@ -28,6 +28,7 @@ SECTION_RE = re.compile(r"^\s*\[([^\]]+)\]\s*$")
 FENCE_RE = re.compile(r"^\s*(\x60{3,}|~{3,})")
 PROMPT_RE = re.compile(r"^\s*<Prompt\s+([^<>]+)>([:：])(.*)$")
 ASSET_RE = re.compile(r"^\s*<(Picture|Audio|Video)\s+([^<>]+)>([:：])(.*)$")
+ENVIRONMENT_PICTURE_RE = re.compile(r"(?:环境图|场景图|空间环境图|地形环境图)")
 SHOT_RE = re.compile(
     r"^\s*镜头\s*([0-9A-Za-z]+)\s*[｜|]\s*"
     r"\[\s*(\d+(?:\.\d+)?)\s*(?:–|—|-|~|～|至)\s*"
@@ -148,6 +149,7 @@ def validate_assets(masked, batch, file, issues):
     seen = set()
     label = f"批次{batch.number:02d}"
     pictures = set()
+    has_environment_picture = False
     for name in ASSET_COLUMNS:
         for start, end in sections(batch, name):
             for i in range(start + 1, end):
@@ -165,6 +167,8 @@ def validate_assets(masked, batch, file, issues):
                         "资产标签格式错误；应为 <Picture 名称>：用途描述（Audio / Video 同理）。", label)
                     continue
                 kind, raw_name, colon, description = match.groups()
+                if kind == "Picture" and ENVIRONMENT_PICTURE_RE.search(description):
+                    has_environment_picture = True
                 alias = raw_name.strip()
                 if not alias:
                     add(issues, "error", "empty-asset-alias", file, i, "资产别名不能为空。", label)
@@ -186,6 +190,9 @@ def validate_assets(masked, batch, file, issues):
                 seen.add(key)
                 if kind == "Picture":
                     pictures.add(alias)
+    if not has_environment_picture:
+        add(issues, "error", "missing-environment-picture", file, batch.start,
+            "每个批次至少引用一张相关环境图片；请在 [全局参考] 中添加 Picture，并在用途描述中标注“环境图”。", label)
     return pictures
 
 
@@ -246,9 +253,9 @@ def validate_shots(lines, section, batch, file, issues):
     title_text = f"批次{batch.number}{batch.title}"
     new_title = BATCH_TITLE_RE.fullmatch(title_text)
     target = expected_duration(batch.title)
-    if new_title and target is not None and not 7 <= target <= 15:
+    if new_title and target is not None and not 5 <= target <= 15:
         add(issues, "error", "batch-duration-range", file, batch.start,
-            f"新格式批次标题时长应在 7–15 秒内，当前为 {target:g}s。", label)
+            f"新格式批次标题时长应在 5–15 秒内，当前为 {target:g}s。", label)
     if target is not None and abs(shots[-1][3] - target) > tolerance:
         add(issues, "error", "batch-duration-mismatch", file, shots[-1][0],
             f"批次标题时长为 {target:g}s，但分镜时码结束于 {shots[-1][3]:g}s；请同步标题或时码。", label)

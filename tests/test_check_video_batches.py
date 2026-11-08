@@ -135,6 +135,16 @@ class VideoBatchValidatorTests(unittest.TestCase):
         codes = {x.code for x in issues}
         self.assertTrue({"asset-tag-syntax", "numeric-asset-alias", "path-like-asset-alias"}.intersection(codes))
 
+    def test_canonical_numeric_asset_alias_is_allowed(self):
+        batch = w_batch().replace("<Picture 主角>", "<Picture 866>")
+        issues = validator.validate_document(batch)
+        self.assertNotIn("numeric-asset-alias", {x.code for x in issues})
+
+    def test_unknown_numeric_asset_alias_is_rejected(self):
+        batch = w_batch().replace("<Picture 主角>", "<Picture 123>")
+        issues = validator.validate_document(batch)
+        self.assertIn("numeric-asset-alias", {x.code for x in issues})
+
     def test_legacy_global_asset_section_is_supported(self):
         text = """# 旧式逐镜转译
 ## 批次01｜场景（建议15秒）

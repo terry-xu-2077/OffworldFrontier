@@ -22,7 +22,7 @@
 
 ### 任务路由
 
-- **写剧本、改台词、设计／审阅分镜、直接从剧本制作视频提示词、检查镜头连续性、拆批或审片：** 按上述顺序加载导演人格与项目适配，再使用 AI 视频导演 Skill。其参考模块按当前任务选取，不要求一次性读完十四个模块。
+- **写剧本、改台词、设计／审阅分镜、直接从剧本制作视频提示词、检查镜头连续性、拆批或审片：** 按上述顺序加载导演人格与项目适配，再使用 AI 视频导演 Skill。任何分镜提示词任务都必须先读取 00_W 分镜脚本大师核心，再按当前任务选取补充模块；不要求一次性读完全部补充模块。
 - **生成电影静帧、角色／场景资产图或修改图片：** 仍先遵循相关人物与项目视觉设定，然后由 [默认生图 Skill](offworld-image-generation/SKILL.md) 负责实际图片流程；视频导演 Skill 只负责镜头和视觉需求，不能代替真正生图。
 - **更新或校准 Terry 导演人格：** 才使用 [director-persona-maintainer Skill](director-persona-maintainer/SKILL.md) 的维护流程，配合个人导演人格和项目适配文件；不得把一次提示词修改自动当作人格更新。
 - **纯仓库维护、代码修改、文件检索：** 不属于创作判断时，不必强制加载导演人格。
@@ -46,6 +46,7 @@
 
 ## AI 视频导演参考模块
 
+- [W 分镜脚本大师（核心方法）](ai-video-director/references/00_w-storyboard-master.md)
 - [故事、人物、场景、对白与观看价值](ai-video-director/references/01_story-and-viewing-value.md)
 - [导演意图、镜头组织与批次规划](ai-video-director/references/02_intent-and-batch.md)
 - [空间关系、构图与场面调度](ai-video-director/references/03_space-and-blocking.md)

@@ -214,8 +214,20 @@ def validate_shots(lines, section, batch, file, issues):
     if abs(shots[0][2]) > tolerance:
         add(issues, "error", "timecode-not-zero", file, shots[0][0],
             f"批次内时码应从 0 秒开始，当前第一镜从 {shots[0][2]:g}s 开始。", label)
+    if not shots[0][1].isdigit() or int(shots[0][1]) != 1:
+        add(issues, "error", "shot-number-start", file, shots[0][0],
+            f"每批镜头编号必须从镜头01开始，当前第一镜编号为 {shots[0][1]}。", label)
 
     for pos, (i, shot_id, begin, finish) in enumerate(shots):
+        if not shot_id.isdigit():
+            add(issues, "error", "shot-number-format", file, i,
+                f"镜头编号必须为数字，当前编号为 {shot_id}。", label)
+        elif int(shot_id) != pos + 1:
+            add(issues, "error", "shot-number-sequence", file, i,
+                f"本批镜头编号应连续递增；预期镜头{pos + 1:02d}，实际为镜头{int(shot_id):02d}。", label)
+        elif len(shot_id) != 2:
+            add(issues, "warning", "shot-number-padding", file, i,
+                f"建议镜头编号使用两位格式，例如镜头{int(shot_id):02d}。", label)
         if shot_id in seen:
             add(issues, "error", "duplicate-shot-id", file, i, f"镜头编号 {shot_id} 在本批次重复。", label)
         seen.add(shot_id)

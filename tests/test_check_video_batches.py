@@ -156,6 +156,7 @@ class VideoBatchValidatorTests(unittest.TestCase):
 ## 批次01｜场景（建议8秒）
 [全局资产]
 <Picture 主角>：人物身份参考
+<Picture 场景>：环境图：当前场景空间参考
 
 \x60\x60\x60text
 integrated_multimodal_description: [Shot 1] A person enters. [Shot 2] At 00:04.000, the camera cuts to a close view.
@@ -171,6 +172,7 @@ non_diegetic_music: N/A
 ## 批次01｜场景
 [全局资产]
 <Picture 主角>：人物身份参考
+<Picture 场景>：环境图：当前场景空间参考
 
 \x60\x60\x60text
 subject_definitions: <Subject 1> ...
@@ -189,6 +191,7 @@ non_diegetic_music: N/A
 ## 批次01｜场景
 [全局资产]
 <Picture 主角>：人物身份参考
+<Picture 场景>：环境图：当前场景空间参考
 
 \x60\x60\x60text
 integrated_multimodal_description: [Shot 1] A person enters. [Shot 2] The camera cuts to a close view.

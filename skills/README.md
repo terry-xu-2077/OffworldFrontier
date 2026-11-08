@@ -16,7 +16,7 @@
 1. **先载入导演人格。** 先读取 [Terry 导演人格](director-persona-maintainer/references/Terry导演人格.md)，建立人物、故事、节奏、视听取舍和审稿判断的个人基线。普通创作只读取这份人格资料即可，**不需要执行人格维护技能的更新流程**。
 2. **再载入本项目的适配。** 读取 [《异星边境》项目适配](../创作/导演人格/项目适配.md) 和其中的 [项目导演人格补充](../创作/导演人格/references/异星边境导演人格补充.md)，理解本剧的专属风格、人物边界与创作判断；同时遵循仓库 [AGENTS.md](../AGENTS.md)、[创作方向](../创作/创作方向.md)。涉及人物弧光、角色发展、关系变化或整季人物审查时，额外读取 [人物弧光与角色审查标准](../创作/人物弧光与角色审查标准.md)；风格类比时才按需读取视觉参照，复杂改稿审查时才按需读取既有案例；人物、世界和美术事实从当下正典及正式资产核对。
 3. **最后使用 AI 视频导演技能。** 读取 [ai-video-director/SKILL.md](ai-video-director/SKILL.md)，并将 [原版 W 分镜脚本大师](ai-video-director/references/00_w-storyboard-master.md) 作为分镜提示词核心，先读核心再按任务读取补充模块。**从剧本直接制作整场／整集视频提示词时，必须读取 00、01、02、03、04、05、06、07、09、10、12、15；需要新建或审查核心电影静帧时另读 08；明确指定 H3 时以 11 替代 10。** 补充模块只能补充制作细节，不得把 W 核心改写成另一套方法；先用导演人格决定“拍什么、为什么值得拍”，再用 W 核心与视频导演技能决定“怎么拍、怎么写成可生成提示词”。
-4. **逐批次写作与质量验收。** 一次只完成一个批次；当前批次写完立即按 [12_quality-review.md](ai-video-director/references/12_quality-review.md) 做实质导演审核，发现问题直接修改并复审，达到 PASS 后才开始下一批。HOLD 时暂停依赖它的后续批次。禁止整集全部写完后才统一补审。
+4. **逐批次写作与双重质量验收。** 一次只完成一个批次；当前批次先由 W.分镜脚本大师／Terry导演人格正向审核，再由独立反向审稿盲审。盲审必须逐镜反向复述成稿，核对摄影机时间轴、画面视觉优先级和提示词字面可还原性；不得读取作者内部构思或前序审核结论。任一审核发现问题都要修改并重新执行两种审核，只有两者均 PASS 后才开始下一批。HOLD 时暂停依赖它的后续批次。禁止整集全部写完后才统一补审。
 5. **整份总审与格式验证。** 所有批次分别通过后，再检查整体节奏、跨批连续性和资产一致性；如发现前序问题，重新打开并复审受影响批次。最后运行格式检查。格式校验不等于导演质量验收，也不等于真实视频已经生成。
 
 > **名称说明：** 你之前使用的 `offworld-ai-video-director` 是旧目录名；为使技能本身不绑定任何作品，现已更名为 **`ai-video-director`**。在本项目里说“使用 offworld-ai-video-director”，应按上述顺序调用当前实际文件 `skills/ai-video-director/SKILL.md`；不要访问已移除的旧目录或假定它仍是一个独立技能。
@@ -59,10 +59,10 @@
 - [输出格式与模型正文边界](ai-video-director/references/09_output-contract.md)
 - [Seedance 2.5](ai-video-director/references/10_seedance-2.5.md)
 - [MiniMax H3](ai-video-director/references/11_minimax-h3.md)
-- [质量审查与生成结果复盘](ai-video-director/references/12_quality-review.md)
+- [质量审查、独立反向盲审与生成结果复盘](ai-video-director/references/12_quality-review.md)
 - [方法来源与适用边界](ai-video-director/references/13_reference-methods.md)
 - [跳跃动作物理（可选）](ai-video-director/references/14_jump-preparation.md)
-- [导演设计先行流程](ai-video-director/references/15_director-design-workflow.md)
+- [导演设计先行流程（含时间轴预演与双重审核）](ai-video-director/references/15_director-design-workflow.md)
 
 按需核对当下有效的正典专题，第一季提案、灵感池和历史废弃剧情不自动成为通用规则。编写剧本不自动输出镜头表，设计分镜不自动生成素材，具体交付层级以本次任务为准。
 

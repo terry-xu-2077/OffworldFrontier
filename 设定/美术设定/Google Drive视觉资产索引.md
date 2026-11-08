@@ -127,7 +127,7 @@
 
 ## 四、载具（3 张）
 
-### 1. [蚂蚱载具.jpg](https://drive.google.com/file/d/1y8KUFhgTl5zc_feyo_Cf-dcVFkNqFR0G/view?usp=drivesdk) — Picture 别名：866
+### 1. [蚂蚱载具.jpg](https://drive.google.com/file/d/1y8KUFhgTl5zc_feyo_Cf-dcVFkNqFR0G/view?usp=drivesdk) — Picture 别名：蚂蚱载具
 
 - **图片描述：** 多视角载具设定板，主体为单人驾驶的沙色／灰米色轻型荒原越野载具，四轮与多组长关节机械腿／支撑结构结合；车头低、后部机械结构更高，侧后方有灰紫色折叠翼膜，图片同时展示翼膜展开与收纳状态、正侧后视图和驾驶舱内部。
 - **用途：** 866 的单座驾驶位、四轮、机械腿、车身比例、折叠翼膜、外壳颜色和结构连续性。驾驶位只容纳一名驾驶员；动作镜头可根据需要表现机械腿压缩、伸展和翼膜状态，但不能把参考图当成每一镜的固定构图。

@@ -33,7 +33,7 @@ def w_batch(number: int = 1, duration: int = 15, shots: str | None = None) -> st
 
 [全局参考]
 <Picture 主角>：人物身份与服装参考
-<Picture 场景>：约束工作台、门窗和通道位置
+<Picture 场景>：环境图：约束工作台、门窗和通道位置
 
 [连续性状态]
 人物从门外进入，手中没有道具。
@@ -97,6 +97,19 @@ class VideoBatchValidatorTests(unittest.TestCase):
         codes = {x.code for x in issues}
         self.assertTrue({"missing-section", "duplicate-section"}.intersection(codes))
 
+    def test_shot_numbers_restart_at_one_for_each_batch(self):
+        first = w_batch(1)
+        second = w_batch(2).replace("镜头01", "镜头03").replace("镜头02", "镜头04")
+        issues = validator.validate_document(first + "\\n---\\n" + second)
+        codes = {x.code for x in issues}
+        self.assertIn("shot-number-start", codes)
+        self.assertIn("shot-number-sequence", codes)
+
+    def test_shot_numbers_must_be_contiguous_within_batch(self):
+        shots = w_batch().split("[分镜脚本]\\n", 1)[1].replace("镜头02", "镜头03")
+        issues = validator.validate_document(w_batch(shots=shots))
+        self.assertIn("shot-number-sequence", {x.code for x in issues})
+
     def test_timecode_gap_is_detected(self):
         shots = w_batch().split("[分镜脚本]\n", 1)[1].replace("镜头02｜[7–15s]", "镜头02｜[8–15s]")
         issues = validator.validate_document(w_batch(shots=shots))
@@ -127,6 +140,7 @@ class VideoBatchValidatorTests(unittest.TestCase):
 ## 批次01｜场景（建议15秒）
 [全局资产]
 <Picture 主角>：人物身份参考
+<Picture 场景>：环境图：工作场景空间参考
 [分镜脚本]
 镜头01｜[0–15s]
 景别 / 焦段：中景 / 35mm

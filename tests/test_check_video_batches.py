@@ -100,13 +100,13 @@ class VideoBatchValidatorTests(unittest.TestCase):
     def test_shot_numbers_restart_at_one_for_each_batch(self):
         first = w_batch(1)
         second = w_batch(2).replace("镜头01", "镜头03").replace("镜头02", "镜头04")
-        issues = validator.validate_document(first + "\\n---\\n" + second)
+        issues = validator.validate_document(first + "\n---\n" + second)
         codes = {x.code for x in issues}
         self.assertIn("shot-number-start", codes)
         self.assertIn("shot-number-sequence", codes)
 
     def test_shot_numbers_must_be_contiguous_within_batch(self):
-        shots = w_batch().split("[分镜脚本]\\n", 1)[1].replace("镜头02", "镜头03")
+        shots = w_batch().split("[分镜脚本]\n", 1)[1].replace("镜头02", "镜头03")
         issues = validator.validate_document(w_batch(shots=shots))
         self.assertIn("shot-number-sequence", {x.code for x in issues})
 

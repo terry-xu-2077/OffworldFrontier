@@ -29,6 +29,8 @@ FENCE_RE = re.compile(r"^\s*(\x60{3,}|~{3,})")
 PROMPT_RE = re.compile(r"^\s*<Prompt\s+([^<>]+)>([:：])(.*)$")
 ASSET_RE = re.compile(r"^\s*<(Picture|Audio|Video)\s+([^<>]+)>([:：])(.*)$")
 ENVIRONMENT_PICTURE_RE = re.compile(r"(?:环境图|场景图|空间环境图|地形环境图)")
+# 正典中已确认的专名资产别名；不是 H3 的素材编号。
+NUMERIC_ASSET_ALIAS_ALLOWLIST = {"866"}
 SHOT_RE = re.compile(
     r"^\s*镜头\s*([0-9A-Za-z]+)\s*[｜|]\s*"
     r"\[\s*(\d+(?:\.\d+)?)\s*(?:–|—|-|~|～|至)\s*"
@@ -177,7 +179,7 @@ def validate_assets(masked, batch, file, issues):
                 if not description.strip():
                     add(issues, "error", "empty-asset-description", file, i,
                         f"<{kind} {alias}> 缺少用途描述。", label)
-                if alias.isdigit():
+                if alias.isdigit() and alias not in NUMERIC_ASSET_ALIAS_ALLOWLIST:
                     add(issues, "error", "numeric-asset-alias", file, i,
                         f"资产别名“{alias}”不能是纯数字；纯数字标签保留给 H3 官方编号。", label)
                 if "/" in alias or "\\" in alias or re.search(r"\.(png|jpe?g|webp|mp4|mov|wav|mp3)$", alias, re.I):

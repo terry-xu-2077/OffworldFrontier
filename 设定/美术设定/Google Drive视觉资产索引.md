@@ -157,7 +157,7 @@
 ### 3. [生物电池.jpg](https://drive.google.com/file/d/1CWRMgM6yN9yXyOHElcQ3pxcxPxkUnIj3/view?usp=drivesdk) — Picture 别名：生物电池
 
 - **图片描述：** 白底单体道具图；一只可手提的厚重矩形浅灰白工业电池，顶部有提把，四周有保护框和机械锁扣，正面中央为圆形琥珀色观察窗，窗内能看到细丝状、分枝状的有机结构和暖黄色微光。
-- **用途：** 单体生物电池的外壳、把手、观察窗和内部活体结构。画面中自动生成的品牌字样或型号不自动成为正典；不要把它画成普通消费电子电池。
+- **用途：** 单体生物电池的外壳、把手、观察窗和内部活体结构。E01 经导演确认采用图中外壳铭牌作为特瑞辨认它的依据：压印的以太动力学 AD 厂牌，下方 ORC 与 VTX 两块小铭牌；其余细小文字不要求逐字复刻；不要把它画成普通消费电子电池。
 
 ### 4. [高负载充能接头.jpg](https://drive.google.com/file/d/18Jsi2T76cOcVBlvyS9kK9pwzU4eJPUgx/view?usp=drivesdk) — Picture 别名：高负载充能接头
 
